@@ -695,7 +695,7 @@ These are not side concerns. They are the core of whether this idea is acceptabl
 
 Here is what your concept really is, stripped of flattering language:
 
-> A system that collects extensive endpoint activity data, including applications used, content interacted with, browsing/network behavior, and periodic screen captures, then uses multimodal AI to infer likely task context, work relevance, sensitivity, and possible intent, in order to produce more nuanced behavioral interpretations than rule-based employee monitoring systems.
+> A system that collects extensive endpoint activity data, including applications used, content interacted with, browsing/network behavior, and periodic screen captures, then uses multi-modal AI to infer likely task context, work relevance, sensitivity, and possible intent, in order to produce more nuanced behavioral interpretations than rule-based employee monitoring systems.
 
 That is much better than your current wording, because it does not pretend the system has a soul.
 
