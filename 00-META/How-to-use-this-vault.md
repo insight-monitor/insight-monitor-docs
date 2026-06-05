@@ -1,31 +1,42 @@
 ---
-type: architecture
-tags:
-  - data
-  - schema
-  - example
+type: process
+domain: documentation-architecture
+priority: critical
+status: in-progress
+audience: all
+version: 1.0.0
 ---
-# How to use
-This file discusses how to create, modify and remove documentation files on this vault
+
+# How to use this vault
+
+This file discusses how to create, modify and remove documentation files.
+
 ## What to use
-If the git repository was cloned, know:
-- Install obsidian
-- Use community plugins 
-	- continuous mode
+
+If the git repository was cloned:
+- Install Obsidian
+- Use community plugins (continuous mode)
+- Review [[Metadata]] for the frontmatter schema
+
 ## How to read
-This documentation is highly modular, to read use:
-- Folders naming to see specific scope themes
-- MOC (Map of Content) to know the relationships between files and topics
+
+This documentation is highly modular. To navigate:
+- **Folder naming** — Folders are prefixed with numbers for scope ordering (00-META, 01-NARRATIVE, ...).
+- **MOCs (Map of Content)** — Each folder has an `MOC-<Folder>.md` that links all files in that domain.
+- **Priority** — Files with `priority: critical` and `priority: high` are the primary reading path. Files with `priority: low` or `optional` should only be read when relevant.
+
 ## How to create
-### When creating a file
-- Only first letter must be Capital, different words are separated by "-"
-- Update or create a MOC (Folder Scoped)
-- use [[Metadata]] inside every markdown file, this allows to classify and create natural relationships between files.
-- back-link relationships using `[[ LINk ]]` (the obsidian way)
-### Files life cycle
-- To start, add the `raw` tag in the file, write all the ideas without focusing on the correct way.
-- Use the templates [[MOC-templates]].
-- Read the [[Atomization]] file and follow the directives
-- Read the [[Folder-structure]] file to understand folder isolation
-- Refactor the created file and separate in as many files as needed
-- Commit and push the changes as per [[Git-norms]]
+
+### File naming
+
+- First letter capital, remaining words separated by `-` (e.g., `Data-Model.md`).
+- Update or create an `MOC-<Folder>.md` for the folder.
+- Add frontmatter following the schema in [[Metadata]].
+
+### File lifecycle
+
+1. Start: add `status: raw` in frontmatter. Write ideas without worrying about structure.
+2. Read [[Atomization]] and split concerns into separate files as needed.
+3. Refactor `status` to `in-progress` once structured.
+4. Once reviewed, set `status: completed`.
+5. Commit and push per [[Git-norms]].

@@ -1,9 +1,11 @@
 ---
-type: architecture
-tags:
-  - example
-  - how-to
+type: reference
+domain: git
+priority: low
+status: in-progress
+audience: developer
 ---
+
 # Pull Request Template
 ```markdown
 ## Summary

@@ -1,75 +1,111 @@
 ---
-type: architecture
-tags:
-  - data
-  - schema
+type: reference
+domain: documentation-architecture
+priority: critical
 status: in-progress
+audience: all
+version: 1.0.0
 ---
-# Metadata
-Types of metadata properties and what they are used for:
-## types
-A file is usually a single type at a time.
-The existing types are:
-### architecture
-A file that describes some type of architecture, like documentation or metadata architecture
-### concept
-A file that describes a concept or multiple. 
-### policy
-A file that describes an app policy
-### risks
-A file that describes an unsolved or solved concern
-### example
-A file that shows an example for any category
-### instructions
-A file that contains a series of instructions/steps to follow
-### truth
-A file that contains non-negotiable rules to follow
-## tags
-A file usually has multiple tags at a time.
-The existing tags are:
-### data
-The file contains information on any theme related to data manipulation or use in the application
-### schema
-The file defines an schema of any type
-### AI
-The file is related to the AI Usage or implementation
-### limitation
-The file discuses a limitation of any type
-### implementation
-The file discuses a way to implement a feature
-### feature
-The file discuses a feature 
-### intent
-The file discuses the intent (non-technical) on a feature or data
-### objective
-The file discuses a feature objective
-### usage
-The file discuses the usage on a feature or tool
-### legal
-The file discusses legal issues or laws pertaining a certain theme
-### raw
-The file contains raw text with out proper spelling or investigation process
-### critique
-The file contains a critique/review on a certain topic, feature or idea
-### solved
-The file contains a issue/critique/review that has been solved or addressed
-### issue
-The file contains an issue on a certain topic or feature
-### how to
-The file contains an explanation on how to do something
-### nonnegotiable
-The file contains nonnegotiable instructions
 
-## status
-A file is in a single status at a time.
-Status can be changed, a finished status doesn't mean the file won't change in the future.
-### in-progress
-The file is in progress of construction
-### in-review
-The file is being reviewed after a big update
-### completed
-The file is at an stable version
-### deprecated
-The file is deprecated and no it's not aligned to the current documentation status
+# Metadata: Frontmatter Schema
 
+Every file in this vault MUST have frontmatter (YAML between `---` delimiters).
+This page defines every valid field and value.
 
+---
+
+## `type` — What the file IS (single value)
+
+| Value       | Description                                                |
+|-------------|------------------------------------------------------------|
+| `concept`   | Defines an idea, principle, or mental model                |
+| `policy`    | Rules, standards, or directives to follow                  |
+| `process`   | Sequenced steps or instructions to execute                 |
+| `reference` | Schema, template, catalog, or lookup data                  |
+| `decision`  | Record of an architectural or design choice (ADR)          |
+| `truth`     | Foundational, non-negotiable principle                     |
+| `index`     | Navigation file (MOC, table of contents)                   |
+
+## `domain` — What SUBJECT the file belongs to (single value)
+
+| Value                        | Description                                    |
+|------------------------------|------------------------------------------------|
+| `documentation-architecture` | How the vault itself works                     |
+| `git`                        | Version control workflow and conventions        |
+| `narrative`                  | Project story and vision                        |
+| `brand`                      | Identity and market positioning                 |
+| `core-concept`               | Foundational ideas and principles               |
+| `data-model`                 | Data structures and schema definitions          |
+| `inference`                  | AI reasoning and computational models           |
+| `privacy`                    | Data protection and compliance                  |
+| `security`                   | Security architecture and protocols             |
+| `legal`                      | Legal considerations and licensing              |
+| `architecture`               | System design and technical blueprint           |
+| `risks`                      | Potential issues and mitigation                 |
+| `limitations`                | Known constraints and boundaries                |
+| `scope`                      | Project scope and objectives                    |
+| `use-cases`                  | Practical applications and examples             |
+| `critique`                   | Review and improvement cycles                   |
+| `references`                 | External sources and bibliography               |
+
+## `priority` — AI context importance (single value)
+
+| Value      | AI Behavior                                                   |
+|------------|---------------------------------------------------------------|
+| `critical` | Always load. Core context for any task.                        |
+| `high`     | Load by default when studying the domain.                     |
+| `medium`   | Load when the domain is relevant to the current task.          |
+| `low`      | Load only when the specific topic is addressed.                |
+| `optional` | Skip unless explicitly requested. Tooling, infra, workflows.   |
+
+## `status` — Maturity level (single value)
+
+| Value          | Description                                                |
+|----------------|------------------------------------------------------------|
+| `raw`          | Unprocessed draft, ideas without structure                  |
+| `in-progress`  | Being actively developed                                   |
+| `in-review`    | Under review after a significant update                    |
+| `completed`    | Stable version                                             |
+| `deprecated`   | Superseded, kept for historical reference                   |
+
+## `audience` — Who needs this content (single value)
+
+| Value       | Description                                 |
+|-------------|---------------------------------------------|
+| `all`       | Everyone (default)                          |
+| `ai`        | Primarily for AI agent consumption          |
+| `developer` | Engineering and implementation team         |
+| `legal`     | Legal and compliance review                 |
+| `product`   | Product management and strategy             |
+
+## `tags` — Supplementary labels (list)
+
+Free-form tags for cross-cutting concerns not captured by `domain`.
+Examples: `gdpr`, `rag`, `embeddings`, `on-device`, `eu-ai-act`.
+
+## `version` — File version (optional)
+
+Semantic version string: `1.0.0`, `2.1.0`.
+Bump when the file's content has a significant change.
+
+## `owner` — Person responsible (optional)
+
+GitHub handle or name: `@cohorte6`
+
+---
+
+## Example
+
+```yaml
+---
+type: concept
+domain: privacy
+priority: high
+status: raw
+audience: all
+version: 0.1.0
+tags:
+  - gdpr
+  - on-device
+---
+```

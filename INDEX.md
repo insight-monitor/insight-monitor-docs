@@ -1,8 +1,23 @@
 ---
 type: index
-description: Main folder structure index
+domain: meta
+priority: critical
+audience: all
 ---
+
+# AI Consumption Guide
+
+When studying this vault, follow this reading order:
+
+1. Read this INDEX.md completely.
+2. Read each folder's MOC (Map of Content) in numerical order.
+3. Within each MOC, process files by `priority`: critical → high → medium.
+4. Skip files with `priority: low` or `priority: optional` unless explicitly asked about their domain.
+5. Ignore files with `status: raw` or `status: deprecated`.
+6. Only read `domain: git` files when performing version control operations or when explicitly asked.
+
 # Index
+
 ```
 ├── 00-META                     # Project metadata and overview
 ├── 01-NARRATIVE                # Conceptual story and vision
@@ -24,6 +39,7 @@ description: Main folder structure index
 ├── INDEX                       # Navigation index
 └── README                      # Main documentation entry point
 ```
+
 ## MOCs
-- 00-META : [[MOC-Meta]]
-- 
+
+- 00-META: [[MOC-Meta]]

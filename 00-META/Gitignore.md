@@ -1,3 +1,11 @@
+---
+type: reference
+domain: git
+priority: low
+status: in-progress
+audience: developer
+---
+
 ### Obsidian-Specific `.gitignore` 
 **Commit this file to root.** It prevents merge conflicts on local UI state and plugin caches.
 ```gitignore

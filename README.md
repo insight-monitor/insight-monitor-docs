@@ -1,3 +1,11 @@
+---
+type: concept
+domain: narrative
+priority: critical
+status: in-progress
+audience: all
+---
+
 # Monitor Data
 The main factor in this tech is the data:
 We monitor the computer activity, unalike other platforms, we use AI and Eyes to "see" and not only gather intent lacking data.

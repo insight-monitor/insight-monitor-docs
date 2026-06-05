@@ -1,9 +1,11 @@
 ---
-type: instructions
-tags:
-  - how-to
-  - example
+type: reference
+domain: git
+priority: low
+status: in-progress
+audience: developer
 ---
+
 # Branch strategy: Main + Docs-in-Progress
 Do not over-engineer branches. 
 A new branch must have only one topic updated.

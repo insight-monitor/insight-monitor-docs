@@ -1,8 +1,9 @@
 ---
-type: instructions
-tags:
-  - example
-  - how-to
+type: reference
+domain: git
+priority: low
+status: in-progress
+audience: developer
 ---
 
 # Commit Message Convention: 
