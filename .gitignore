@@ -1,1 +1,25 @@
-.obsidian/
+# === Obsidian Core ===
+.obsidian/*
+!.obsidian/app.json
+!.obsidian/community-plugins.json
+!.obsidian/core-plugins.json
+!.obsidian/hotkeys.json
+!.obsidian/snippets/
+# === OS / Editor ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+
+# === Large Media (Use Git LFS instead) ===
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.psd
+*.ai
+*.raw
+*.zip
+*.tar.gz

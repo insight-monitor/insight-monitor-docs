@@ -18,12 +18,14 @@ This documentation is highly modular, to read use:
 - MOC (Map of Content) to know the relationships between files and topics
 ## How to create
 ### When creating a file
+- Only first letter must be Capital, different words are separated by "-"
+- Update or create a MOC (Folder Scoped)
 - use [[Metadata]] inside every markdown file, this allows to classify and create natural relationships between files.
-- backlink relationships using `[[ LINk ]]` (the obsidian way)
-### Life cycle of a file
+- back-link relationships using `[[ LINk ]]` (the obsidian way)
+### Files life cycle
 - To start, add the `raw` tag in the file, write all the ideas without focusing on the correct way.
-- Read and analyze the [[Types-examples]].
+- Use the templates [[MOC-templates]].
 - Read the [[Atomization]] file and follow the directives
 - Read the [[Folder-structure]] file to understand folder isolation
 - Refactor the created file and separate in as many files as needed
-- Commit and push the changes as per [[git-norms]]
+- Commit and push the changes as per [[Git-norms]]

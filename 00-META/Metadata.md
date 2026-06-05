@@ -3,6 +3,7 @@ type: architecture
 tags:
   - data
   - schema
+status: in-progress
 ---
 # Metadata
 Types of metadata properties and what they are used for:
@@ -10,9 +11,9 @@ Types of metadata properties and what they are used for:
 A file is usually a single type at a time.
 The existing types are:
 ### architecture
-File that describes some type of architecture, like documentation or metadata architecture
+A file that describes some type of architecture, like documentation or metadata architecture
 ### concept
-File that describes a concept or multiple. 
+A file that describes a concept or multiple. 
 ### policy
 A file that describes an app policy
 ### risks
@@ -21,6 +22,8 @@ A file that describes an unsolved or solved concern
 A file that shows an example for any category
 ### instructions
 A file that contains a series of instructions/steps to follow
+### truth
+A file that contains non-negotiable rules to follow
 ## tags
 A file usually has multiple tags at a time.
 The existing tags are:
@@ -54,3 +57,19 @@ The file contains a issue/critique/review that has been solved or addressed
 The file contains an issue on a certain topic or feature
 ### how to
 The file contains an explanation on how to do something
+### nonnegotiable
+The file contains nonnegotiable instructions
+
+## status
+A file is in a single status at a time.
+Status can be changed, a finished status doesn't mean the file won't change in the future.
+### in-progress
+The file is in progress of construction
+### in-review
+The file is being reviewed after a big update
+### completed
+The file is at an stable version
+### deprecated
+The file is deprecated and no it's not aligned to the current documentation status
+
+
