@@ -2,7 +2,7 @@
 type: policy
 domain: documentation-architecture
 priority: critical
-status: in-progress
+status: completed
 audience: all
 version: 1.0.0
 ---

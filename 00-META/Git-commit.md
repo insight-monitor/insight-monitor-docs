@@ -2,10 +2,11 @@
 type: reference
 domain: git
 priority: low
-status: in-progress
+status: completed
 audience: developer
+aliases:
+  - git commit
 ---
-
 # Commit Message Convention: 
 **Format:**
 ```text
@@ -36,3 +37,15 @@ refactor(howto): restructure deployment guides into versioned folders
 breaking(intent): remove legacy monolith architecture section
 chore(meta): update obsidian-lint rules for frontmatter
 ```
+## Before committing
+- Make a git status and check the current branch. 
+- If inside main, check for corresponding branch to the changes
+- If branch not found, create a new branch [[Git-branching]]
+- If branch found, check for `git pull` before trying to commit new changes
+- If more than one topic change, make multiple commits
+## Unfinished changes commits
+Commits that have `status: raw`:
+```
+<body> <file_name> Status(Raw)-> Refactor/finishing pending
+```
+> Only commit `status:raw` files if absolutely necessary. 

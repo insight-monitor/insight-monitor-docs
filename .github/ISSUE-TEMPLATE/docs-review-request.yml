@@ -1,0 +1,103 @@
+name: Documentation Review Request (Pre-PR)
+description: Request review for documentation changes *before* opening a Pull Request. Used for Legal, Product, Strategy, or Architecture sign-off.
+title: "[DOCS REVIEW] <Area/Feature>: <Short Title>"
+labels: ["documentation", "review-needed", "pre-pr"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > **Workflow Context:** This issue represents the **"Alignment Phase"**.
+        > 1. Write docs in branch `docs/<slug>`.
+        > 2. Open **this Issue** for high-level review (Legal, PO, Arch).
+        > 3. Incorporate feedback → Push to branch.
+        > 4. Open **Pull Request** (Draft → Ready) for Technical/QA Review & Merge.
+        > ---
+  - type: input
+    id: branch-name
+    attributes:
+      label: Source Branch Name
+      description: The feature branch containing the changes (e.g., `docs/legal-gdpr-update`).
+      placeholder: docs/feat-new-onboarding-flow
+    validations:
+      required: true
+  - type: input
+    id: obsidian-vault-path
+    attributes:
+      label: Obsidian Vault Relative Path(s)
+      description: Path(s) inside the vault to the modified/new notes. Helps reviewers open locally.
+      placeholder: "02-Legal/Contracts/NDA.md, 03-Product/Specs/Onboarding.md"
+    validations:
+      required: true
+  - type: dropdown
+    id: review-type
+    attributes:
+      label: Primary Review Focus
+      description: Who needs to look at this *right now*?
+      options:
+        - Legal/Compliance (Contracts, Policies, GDPR, Terms)
+        - Product/Strategy (Vision, Roadmap, User Flows, Projections)
+        - Architecture/Tech Design (ADRs, API Specs, Diagrams)
+        - UX/Technical Writing (Style, Tone, Structure, Glossary)
+        - Cross-functional (Multiple areas above)
+    validations:
+      required: true
+  - type: textarea
+    id: change-summary
+    attributes:
+      label: 📝 Summary of Changes (The "What" & "Why")
+      description: High-level narrative. Explain the *intent* and *business context*. Link to Jira/Linear/Notion tickets.
+      placeholder: |
+        Added new Data Processing Addendum (DPA) v4.2 per Legal request (Ticket LEG-450).
+        Updated Onboarding Spec to reflect new "Lazy Signup" flow.
+        Removed deprecated "Legacy Billing" projection notes.
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: key-questions
+    attributes:
+      label: ❓ Specific Questions for Reviewers (Blockers)
+      description: Explicitly call out sections where you need a decision. Use `@mentions`.
+      placeholder: |
+        1. **@legal-team**: Section 4.2 (Liability Cap) - Is the $50k cap approved for Enterprise tier?
+        2. **@product-lead**: "Projections" section - Should we include the Q3 2025 revenue forecast here or keep it internal?
+        3. **@architect**: Mermaid diagram in `Architecture/EventBus.md` - Does this reflect the new Kafka partition strategy?
+      render: markdown
+    validations:
+      required: false
+  - type: textarea
+    id: reading-guide
+    attributes:
+      label: 🗺️ Reading Guide / Navigation (Obsidian Context)
+      description: Since this is an Obsidian vault, explain the graph context. Which notes are *entry points*? Which are *supporting*?
+      placeholder: |
+        **Start here:** `01-Vision/Product-Manifesto.md` (MOC)
+        **Deep dives:**
+        - `02-Legal/Compliance/GDPR-Mapping.md` (References the new DPA)
+        - `03-Product/Specs/Onboarding-Flow.md` (Updated wireframes embedded)
+        **Graph links:** Check backlinks on `Glossary/Data-Controller.md` for impact radius.
+      render: markdown
+    validations:
+      required: false
+  - type: checkboxes
+    id: readiness-checklist
+    attributes:
+      label: ✅ Pre-Review Checklist (Author confirms before tagging)
+      options:
+        - label: Branch `docs/...` is pushed to remote.
+        - label: Markdown renders correctly in Obsidian (no broken `[[wikilinks]]` or embeds).
+        - label: Frontmatter (tags, aliases, status) is filled per project standards.
+        - label: No sensitive secrets/keys in content (Legal/Financial data redacted if needed).
+        - label: Related tickets (Jira/Linear) linked in Summary above.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Next Steps for Reviewers:**
+        1. Clone/Fetch branch `{{ branch-name }}` OR view files via GitHub Web UI (press `.` for VS Code Web).
+        2. Comment on **this Issue** with feedback/approvals.
+        3. Author incorporates feedback → pushes updates.
+        4. Author converts to **Pull Request** for final technical merge checks.

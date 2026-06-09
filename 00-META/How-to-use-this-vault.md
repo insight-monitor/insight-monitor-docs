@@ -2,14 +2,13 @@
 type: process
 domain: documentation-architecture
 priority: critical
-status: in-progress
+status: completed
 audience: all
 version: 1.0.0
 ---
-
 # How to use this vault
 
-This file discusses how to create, modify and remove documentation files.
+This file discusses how to create, modify and remove documentation files. Follow [[Docs-truth]]
 
 ## What to use
 
@@ -26,6 +25,7 @@ This documentation is highly modular. To navigate:
 - **Priority** — Files with `priority: critical` and `priority: high` are the primary reading path. Files with `priority: low` or `optional` should only be read when relevant.
 
 ## How to create
+Make sure to follow the [[File-lifecycle|File lifecyle]]
 
 ### File naming
 
@@ -33,10 +33,7 @@ This documentation is highly modular. To navigate:
 - Update or create an `MOC-<Folder>.md` for the folder.
 - Add frontmatter following the schema in [[Metadata]].
 
-### File lifecycle
+### File editing
+follow the [[File-lifecycle|File lifecycle]]. 
+git is an important tool inside this vault, make sure to make the corresponding edits inside a separated branch, and commit regularly. 
 
-1. Start: add `status: raw` in frontmatter. Write ideas without worrying about structure.
-2. Read [[Atomization]] and split concerns into separate files as needed.
-3. Refactor `status` to `in-progress` once structured.
-4. Once reviewed, set `status: completed`.
-5. Commit and push per [[Git-norms]].

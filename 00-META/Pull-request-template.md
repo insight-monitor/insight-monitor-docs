@@ -2,10 +2,12 @@
 type: reference
 domain: git
 priority: low
-status: in-progress
+status: completed
 audience: developer
+version: 1.0.0
+aliases:
+  - PR
 ---
-
 # Pull Request Template
 ```markdown
 ## Summary
@@ -28,6 +30,3 @@ Related to: [Ticket-123]
 - [ ] Does this change compliance posture? (If yes, tag @legal-reviewer)
 - [ ] Does this change threat model? (If yes, tag @security-reviewer)
 ```
-
-**Merge Method:** **Squash and Merge**.
-*   *Why:* Keeps `main` history linear and clean (one commit per logical change). The PR number becomes the traceable unit.

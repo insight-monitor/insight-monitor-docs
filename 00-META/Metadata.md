@@ -2,11 +2,10 @@
 type: reference
 domain: documentation-architecture
 priority: critical
-status: in-progress
+status: completed
 audience: all
 version: 1.0.0
 ---
-
 # Metadata: Frontmatter Schema
 
 Every file in this vault MUST have frontmatter (YAML between `---` delimiters).
@@ -28,25 +27,25 @@ This page defines every valid field and value.
 
 ## `domain` — What SUBJECT the file belongs to (single value)
 
-| Value                        | Description                                    |
-|------------------------------|------------------------------------------------|
-| `documentation-architecture` | How the vault itself works                     |
-| `git`                        | Version control workflow and conventions        |
-| `narrative`                  | Project story and vision                        |
-| `brand`                      | Identity and market positioning                 |
-| `core-concept`               | Foundational ideas and principles               |
-| `data-model`                 | Data structures and schema definitions          |
-| `inference`                  | AI reasoning and computational models           |
-| `privacy`                    | Data protection and compliance                  |
-| `security`                   | Security architecture and protocols             |
-| `legal`                      | Legal considerations and licensing              |
-| `architecture`               | System design and technical blueprint           |
-| `risks`                      | Potential issues and mitigation                 |
-| `limitations`                | Known constraints and boundaries                |
-| `scope`                      | Project scope and objectives                    |
-| `use-cases`                  | Practical applications and examples             |
-| `critique`                   | Review and improvement cycles                   |
-| `references`                 | External sources and bibliography               |
+| Value                        | Description                              |
+| ---------------------------- | ---------------------------------------- |
+| `documentation-architecture` | How the vault itself works               |
+| `git`                        | Version control workflow and conventions |
+| `narrative`                  | Project story and vision                 |
+| `brand`                      | Identity and market positioning          |
+| `core-concept`               | Foundational ideas and principles        |
+| `data-model`                 | Data structures and schema definitions   |
+| `inference`                  | AI reasoning and computational models    |
+| `privacy`                    | Data protection and compliance           |
+| `security`                   | Security architecture and protocols      |
+| `legal`                      | Legal considerations and licensing       |
+| `architecture`               | System design and technical blueprint    |
+| `risks`                      | Potential issues and mitigation          |
+| `limitations`                | Known constraints and boundaries         |
+| `scope`                      | Project scope and objectives             |
+| `use-cases`                  | Practical applications and examples      |
+| `critique`                   | Review and improvement cycles            |
+| `references`                 | External sources and bibliography        |
 
 ## `priority` — AI context importance (single value)
 
@@ -60,13 +59,13 @@ This page defines every valid field and value.
 
 ## `status` — Maturity level (single value)
 
-| Value          | Description                                                |
-|----------------|------------------------------------------------------------|
-| `raw`          | Unprocessed draft, ideas without structure                  |
-| `in-progress`  | Being actively developed                                   |
-| `in-review`    | Under review after a significant update                    |
-| `completed`    | Stable version                                             |
-| `deprecated`   | Superseded, kept for historical reference                   |
+| Value         | Description                                |
+| ------------- | ------------------------------------------ |
+| `raw`         | Unprocessed draft, ideas without structure |
+| `in-progress` | Being actively developed                   |
+| `in-review`   | Under review after a significant update    |
+| `completed`   | Stable version                             |
+| `deprecated`  | Superseded, kept for historical reference  |
 
 ## `audience` — Who needs this content (single value)
 
@@ -90,7 +89,7 @@ Bump when the file's content has a significant change.
 
 ## `owner` — Person responsible (optional)
 
-GitHub handle or name: `@cohorte6`
+GitHub handle or name: `@SrLampi1001`
 
 ---
 

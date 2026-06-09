@@ -2,10 +2,9 @@
 type: truth
 domain: git
 priority: low
-status: in-progress
+status: completed
 audience: developer
 ---
-
 # Git Rules
 1.  **Main is Sacred.** Never commit to main, Broken links or `fixme` tags on `main` = Failed Build.
 2.  **One Topic per Branch/PR.** Don't mix "Update Legal Policy" with "Fix typo in Runbook".

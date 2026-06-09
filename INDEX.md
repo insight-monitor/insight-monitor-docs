@@ -35,6 +35,7 @@ When studying this vault, follow this reading order:
 ├── 13-USE-CASES-EXAMPLES       # Practical applications and examples
 ├── 14-CRITIQUE-ITERATION       # Review and improvement cycles
 ├── 15-DIAGRAMS                 # Visual representations and flowcharts
+├── 98-DEPRECATED               # Deprecated documenatation
 ├── 99-REFERENCES               # Bibliography and external sources
 ├── INDEX                       # Navigation index
 └── README                      # Main documentation entry point
