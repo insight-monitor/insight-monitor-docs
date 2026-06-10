@@ -35,6 +35,8 @@ When studying this vault, follow this reading order:
 ├── 13-USE-CASES-EXAMPLES       # Practical applications and examples
 ├── 14-CRITIQUE-ITERATION       # Review and improvement cycles
 ├── 15-DIAGRAMS                 # Visual representations and flowcharts
+├── 16-DAILY                    # SCRUM Daily ceremonies compilation
+├── 17-SESSIONS                 # AI Sessions for context managment
 ├── 98-DEPRECATED               # Deprecated documenatation
 ├── 99-REFERENCES               # Bibliography and external sources
 ├── INDEX                       # Navigation index
@@ -60,5 +62,6 @@ When studying this vault, follow this reading order:
 - [[MOC-Critique-iteration]] - General Critique iteration MOC
 - [[MOC-Diagrams]] - General Diagrams MOC
 - [[MOC-Daily]] - General Daily MOC
+- [[MOC-Sessions]] - General Sessions MOC
 - [[MOC-Deprecated]] - General Deprecated MOC
 - [[MOC-References]] - General References MOC

@@ -90,6 +90,8 @@ Bump when the file's content has a significant change.
 ## `owner` — Person responsible (optional)
 
 GitHub handle or name: `@SrLampi1001`
+## `creation-date` — Creation date
+Creation date, relevant for session and daily related files.  Format DD/MM/YYYY.
 
 ---
 
