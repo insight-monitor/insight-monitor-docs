@@ -7,6 +7,7 @@ audience: developer
 version: 1.0.0
 aliases:
   - git issue
+  - Documentation Review Request
 ---
 # git issue template
 # Documentation Review Request
@@ -85,7 +86,7 @@ see the [review request](./.github/ISSUE-TEMPLATE/docs-review-request.yml) YAML 
 
 ## Obsidian Vault Relative Path(s)
 
-```text
+\```text
 02-Legal/Contracts/DPA-v4.2.md
 02-Legal/Compliance/GDPR-Mapping.md
 \```
