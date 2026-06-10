@@ -6,7 +6,7 @@ audience: all
 tags:
   - narrative
   - ai-input
-creation-date: 09/06/2026
+creation-date: 2026-06-09
 aliases:
   - docs startup
 ---
