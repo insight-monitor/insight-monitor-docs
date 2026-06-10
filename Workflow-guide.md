@@ -15,7 +15,7 @@ last-reviewed: 2026-06-09
 ---
 # Documentation Workflow Guide
 
-See [[Vault-structure]] for the complete folder map.
+See [[Vault-Structure]] for the complete folder map.
 
 ---
 
@@ -26,7 +26,7 @@ We **do not** edit `main` directly. We **do not** open PRs for *ideas*.
 ### Phase 1: Alignment (The "Git Issue" Phase)
 **Goal:** Get Human Sign-off (Legal, PO, Security) on *Content & Intent*.
 **Tool:** GitHub **Issue** (Template: `Documentation Review Request`).
-**Branch:** `topic/<short-slug>` (e.g., `topic/legal-gdpr-update`). Branch from `develop`.
+**Branch:** `<prefix>/<short-slug>`. See [[Git-branch-prefixes]] for valid prefixes. Branch from `develop`.
 
 1.  **Create Branch** locally in Obsidian (Terminal or Git plugin).
 2.  **Write/Edit** in Obsidian. Use `[[Wikilinks]]` freely. Embed diagrams `![[diagram.excalidraw]]`.
@@ -51,8 +51,8 @@ We **do not** edit `main` directly. We **do not** open PRs for *ideas*.
     *  **AI Context Check:** Validates `ai-context` tags exist for RAG ingestion.
 3.  **Fix Failures Locally** → Push → CI turns Green.
 4.  **Mark "Ready for Review"**.
-5.  **Tech/QA Review:** Check diffs, rendering, diagram exports.
-6.  **Merge:** Squash & Merge to `develop`. Branch auto-deleted.
+5.  **Tech/QA Review:** Check diffs, rendering, diagram exports. Self-approval allowed when reviewer is the author.
+6.  **Merge:** Squash & Merge to `develop`. Branch auto-deleted. See [[Git-branching#merge-process|Git-branching: Merge Process]] for full merge rules.
 7.  **Release (on demand):** When `develop` has accumulated enough changes, open a PR `develop` → `main`. After review, Squash & Merge. Issue auto-closed.
 
 ---
