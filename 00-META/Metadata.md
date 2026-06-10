@@ -5,6 +5,8 @@ priority: critical
 status: accepted
 audience: all
 version: 2.0.0
+aliases:
+  - Frontmatter
 ---
 # Metadata: Frontmatter Schema
 

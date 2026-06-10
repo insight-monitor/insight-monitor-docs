@@ -5,6 +5,9 @@ priority: critical
 status: accepted
 audience: all
 version: 1.0.0
+aliases:
+  - Docs golden rules
+slug: docs-truth
 ---
 # Docs Rules
 1. **Files are small**, Files CAN'T contain more than 500 words, except for `status: draft`

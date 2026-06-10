@@ -4,6 +4,7 @@ domain: narrative
 priority: critical
 status: in-progress
 audience: all
+version: 2.0.0
 ---
 
 # Monitor Data
