@@ -1,13 +1,17 @@
 ---
-status: raw
-priority: high
-audience: all
-domain: documentation-architecture
 type: process
+title: "Documentation Workflow Guide"
+domain: documentation-architecture
+priority: high
+ai-context: high
+status: draft
+audience: all
+slug: documentation-workflow-guide
 tags:
   - ai-input
 aliases:
   - workflow guide
+last-reviewed: 2026-06-09
 ---
 # 📖 Documentation Workflow Guide
 > **Audience:** Product, Legal, Design, Devs, AI Agents (Cursor/Copilot/GPT), QA.
@@ -51,7 +55,7 @@ We **do not** edit `main` directly. We **do not** open PRs for *ideas*.
 ### Phase 1: Alignment (The "Git Issue" Phase)
 **Goal:** Get Human Sign-off (Legal, PO, Security) on *Content & Intent*.
 **Tool:** GitHub **Issue** (Template: `Documentation Review Request`).
-**Branch:** `docs/<short-slug>` (e.g., `docs/legal-gdpr-update`).
+**Branch:** `topic/<short-slug>` (e.g., `topic/legal-gdpr-update`). Branch from `develop`.
 
 1.  **Create Branch** locally in Obsidian (Terminal or Git plugin).
 2.  **Write/Edit** in Obsidian. Use `[[Wikilinks]]` freely. Embed diagrams `![[diagram.excalidraw]]`.
@@ -77,7 +81,19 @@ We **do not** edit `main` directly. We **do not** open PRs for *ideas*.
 3.  **Fix Failures Locally** → Push → CI turns Green ✅.
 4.  **Mark "Ready for Review"**.
 5.  **Tech/QA Review:** Check diffs, rendering, diagram exports.
-6.  **Merge:** Squash & Merge to `main`. Branch auto-deleted. Issue auto-closed.
+6.  **Merge:** Squash & Merge to `develop`. Branch auto-deleted.
+7.  **Release (on demand):** When `develop` has accumulated enough changes, open a PR `develop` → `main`. After review, Squash & Merge. Issue auto-closed.
+
+---
+
+### Hotfix (Emergency)
+**Use sparingly.** Only for urgent fixes (broken links, compliance deadlines, security patches).
+
+1. Branch directly from `main`: `topic/hotfix-<short-slug>`
+2. Fix + commit on hotfix branch
+3. Open PR `topic/hotfix-<slug>` → `main` for expedited review
+4. After merge, immediately backport to `develop` via cherry-pick or PR `topic/hotfix-<slug>` → `develop`
+5. Delete the hotfix branch
 
 ---
 
@@ -88,7 +104,7 @@ We **do not** edit `main` directly. We **do not** open PRs for *ideas*.
 ---
 title: "Data Retention Policy"       # Human Title
 slug: "legal-data-retention"         # URL/ID slug (kebab-case)
-status: "approved"                   # draft | review | approved | deprecated
+status: "draft"                      # draft | in-progress | review | accepted | deprecated
 tags: [legal, gdpr, privacy, policy] # Lowercase, plural
 ai-context: "high"                   # high | medium | low (RAG retrieval weight)
 owner: "@legal-counsel"              # GitHub handle

@@ -13,7 +13,7 @@ When studying this vault, follow this reading order:
 2. Read each folder's MOC (Map of Content) in numerical order.
 3. Within each MOC, process files by `priority`: critical → high → medium.
 4. Skip files with `priority: low` or `priority: optional` unless explicitly asked about their domain.
-5. Ignore files with `status: raw` or `status: deprecated`.
+5. Ignore files with `status: draft` or `status: deprecated`.
 6. Only read `domain: git` files when performing version control operations or when explicitly asked.
 
 # Index

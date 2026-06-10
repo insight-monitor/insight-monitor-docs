@@ -1,5 +1,5 @@
 ---
-status: raw
+status: draft
 type: session
 domain: documentation-architecture
 audience: all
@@ -415,13 +415,13 @@ Let me draft the new file now. I'll use frontmatter with:
 - type: concept
 - domain: narrative
 - priority: critical
-- status: raw (to match its current state)
+- status: draft (to match its current state)
 - audience: all
 - version: 1.0.0 (or bump to 2.0.0 since it's a significant rewrite)
 
 Wait, actually the user said "refactor and fix the file to be professional, modularized, and fit to be presented." This implies making it presentable, so maybe status should change to in-progress or in-review? But the user didn't say they want to change status. Let me keep it as raw since they're still workshopping it, but I'll flag that it should be changed when they're ready. Actually, I'll set it to in-progress since they're actively developing it and want it to be presentable. Or keep it raw — let me think. The File-lifecycle says: "Change status to in-progress once structured." So since I'm structuring it, in-progress makes sense. But the user might want to review first. I'll keep it raw and let the user decide.
 
-Actually, I'll just keep it as status: raw and note in my response that they should change it when ready.
+Actually, I'll just keep it as status: draft and note in my response that they should change it when ready.
 
 Let me write the file now. I'll aim for ~350-400 words, modular, professional, no vague claims.
 
@@ -446,7 +446,7 @@ Now let me compile the refactored content:
 type: concept
 domain: narrative
 priority: critical
-status: raw
+status: draft
 audience: all
 version: 2.0.0
 tags:
@@ -539,7 +539,7 @@ Let me rewrite it more tightly:
 type: concept
 domain: narrative
 priority: critical
-status: raw
+status: draft
 audience: all
 version: 2.0.0
 tags:
@@ -700,7 +700,7 @@ Done. The refactored `Vision.md` is now a clean, modular, presentation-ready doc
 - Added 5 `[[wikilinks]]` pointing to files that need to be created in other folders: `03-CORE-CONCEPT/Glossary`, `04-DATA-MODEL/Data-Taxonomy`, `05-INFERENCE-FRAMEWORK/Confidence-Model`, `06-PRIVACY/Data-Processing`, `11-LIMITATIONS/Observability-Gaps`
 - These serve as both navigation and a dependency map for what to write next
 
-**Next step:** When you're satisfied with the vision, change `status: raw` → `status: in-progress` per the [[File-lifecycle]]. The wikilinks will register as broken until you create those files — that's fine, they act as a backlog of what to tackle next.
+**Next step:** When you're satisfied with the vision, change `status: draft` → `status: in-progress` per the [[File-lifecycle]]. The wikilinks will register as broken until you create those files — that's fine, they act as a backlog of what to tackle next.
 
 ---
 

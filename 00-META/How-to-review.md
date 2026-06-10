@@ -3,7 +3,7 @@ priority: medium
 version: 1.0.0
 type: policy
 domain: critique
-status: completed
+status: accepted
 audience: ai
 ---
 

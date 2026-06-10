@@ -3,7 +3,7 @@ type: index
 domain: documentation-architecture
 priority: critical
 audience: all
-status: completed
+status: accepted
 ---
 ## Documentation Architecture (read by default)
 - [[Metadata]] — Frontmatter schema reference

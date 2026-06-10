@@ -2,7 +2,7 @@
 type: process
 domain: documentation-architecture
 priority: critical
-status: completed
+status: accepted
 audience: all
 version: 1.0.0
 ---

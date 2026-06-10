@@ -1,5 +1,5 @@
 ---
-status: raw
+status: draft
 domain: documentation-architecture
 tags:
   - ai-input
@@ -55,13 +55,13 @@ This is a **complete, beginner-friendly guide** tailored exactly to your `insigh
 
 ```bash
 # 1. Start new doc work
-git checkout main && git pull
-git checkout -b docs/legal-update-terms
+git checkout develop && git pull
+git checkout -b topic/legal-update-terms
 
 # 2. Work in Obsidian... (Save, Commit, Push)
 git add .
 git commit -m "feat(legal): add arbitration clause v2"
-git push origin docs/legal-update-terms
+git push origin topic/legal-update-terms
 
 # 3. Open Review Issue (via GitHub Web UI -> Issues -> New -> "Documentation Review Request")
 
@@ -733,7 +733,7 @@ if (hasErrors) {
 | **You (PO/Legal)** | "I need new Privacy Policy" | GitHub Web UI → **New Issue** → `Documentation Review Request` | 2 min |
 | **AI Agent (You/Copilot)** | Drafts policy in `06-PRIVACY/` | Obsidian / Cursor (Reads `WORKFLOW_GUIDE.md`) | 5 min |
 | **Dev** | Reviews AI draft, fixes links | Obsidian → `git commit -m "feat: privacy policy v1"` | 10 min |
-| **Dev** | Pushes branch | `git push origin docs/privacy-v1` | 5 sec |
+| **Dev** | Pushes branch | `git push origin topic/privacy-v1` | 5 sec |
 | **Bot (CI)** | **Blocks PR if:** "guarantee" used, `[[wikilink]]` broken, `ai-context` missing, Mermaid syntax error | GitHub Actions (`.github/workflows/docs-ci.yml`) | 30 sec |
 | **Legal** | Clicks **Preview Link** (from `docs-preview.yml`), reads rendered HTML, comments on **Issue**: "Approved, change retention to 3 years" | GitHub Issue Page | 10 min |
 | **Dev** | Updates file, pushes. CI turns Green. | Terminal / Obsidian Git | 2 min |
