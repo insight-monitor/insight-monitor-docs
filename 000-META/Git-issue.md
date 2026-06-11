@@ -7,6 +7,7 @@ audience: developer
 version: 1.0.0
 aliases:
   - git issue
+  - Documentation Review Request
 ---
 # git issue template
 # Documentation Review Request
@@ -21,8 +22,8 @@ high-level alignment (Legal, Product, Architecture).
 topic/legal-gdpr-update
 
 ## Files / Notes Reviewed
-- 02-Legal/Contracts/DPA-v4.2.md
-- 02-Legal/Compliance/GDPR-Mapping.md
+- 420-LEGAL/Contracts/DPA-v4.2.md
+- 420-LEGAL/Compliance/GDPR-Mapping.md
 
 ## Review Focus
 Legal/Compliance
@@ -85,9 +86,9 @@ see the [review request](./.github/ISSUE-TEMPLATE/docs-review-request.yml) YAML 
 
 ## Obsidian Vault Relative Path(s)
 
-```text
-02-Legal/Contracts/DPA-v4.2.md
-02-Legal/Compliance/GDPR-Mapping.md
+\```text
+420-LEGAL/Contracts/DPA-v4.2.md
+420-LEGAL/Compliance/GDPR-Mapping.md
 \```
 
 ---
@@ -146,7 +147,7 @@ Related:
 
 - `02-Legal/Compliance/GDPR-Mapping.md`
     
-- `01-Vision/Data-Governance-Principles.md`
+- `100-NARRATIVE/Data-Governance-Principles.md`
     
 
 ### Graph Context

@@ -6,7 +6,7 @@ audience: all
 tags:
   - narrative
   - ai-input
-creation-date: 09/06/2026
+creation-date: 2026-06-08
 aliases:
   - docs startup
 ---
@@ -20,7 +20,7 @@ aliases:
 
 ## User
 
-Can you please see the @14-CRITIQUE-ITERATION\AI_analisis.md and the @README.md? Please make sure to follow @00-META\How-to-review.md . I want to start populating the folders and the information. So give me an start up plan to have a step by step on what to start defining, what is priority, etc, so that we can start the developing process with a strongly structured non-technical documentation
+Can you please see the @900-CRITIQUE-ITERATION\AI_analisis.md and the @README.md? Please make sure to follow @0000-META\How-to-review.md . I want to start populating the folders and the information. So give me an start up plan to have a step by step on what to start defining, what is priority, etc, so that we can start the developing process with a strongly structured non-technical documentation
 
 ---
 
@@ -29,7 +29,7 @@ Can you please see the @14-CRITIQUE-ITERATION\AI_analisis.md and the @README.md?
 _Thinking:_
 
 The user wants me to:
-1. Read the critique analysis (14-CRITIQUE-ITERATION/AI_analisis.md)
+1. Read the critique analysis (900-CRITIQUE-ITERATION/AI_analisis.md)
 2. Read the README.md
 3. Follow the How-to-review.md guidelines
 4. Help them create a startup plan with step-by-step guidance on what to start defining, priorities, etc., so they can start the development process with strongly structured non-technical documentation
@@ -60,7 +60,7 @@ _Thinking:_
 
 Now I have a clear picture. Let me analyze:
 
-1. **What was critiqued**: The README.md (the core concept) was severely critiqued in 14-CRITIQUE-ITERATION/AI_analisis.md. The critique says:
+1. **What was critiqued**: The README.md (the core concept) was severely critiqued in 900-CRITIQUE-ITERATION/AI_analisis.md. The critique says:
    - The concept is vague, internally inconsistent, legally dangerous, technically underdefined
    - Overclaims everywhere (anthropomorphic "AI understands intent" language)
    - No formal data model
@@ -75,7 +75,7 @@ Now I have a clear picture. Let me analyze:
    - No structured data taxonomy
    - No scope boundaries
 
-2. **The folder structure already exists** with numbered folders from 00-META to 99-REFERENCES. But they're likely empty or mostly empty (except 00-META, 14-CRITIQUE-ITERATION).
+2. **The folder structure already exists** with numbered folders from 000-META to 99-REFERENCES. But they're likely empty or mostly empty (except 000-META, 900-CRITIQUE-ITERATION).
 
 3. **The Workflow-guide.md** defines the documentation architecture:
    - Folders represent dependency order
@@ -107,7 +107,7 @@ The key insight is: the critique tore apart the README concept because it lacked
 
 Let me create the plan. The user wants me to give a step-by-step on what to start defining, what is priority, etc. This should be actionable and follow the How-to-review.md spirit (critical, concrete, point at faults/solutions).
 
-Given the empty folders (01-13 are all empty), the user has a solid meta-layer (00-META) but zero actual content. The critique essentially says "your idea is vague because you haven't defined the fundamentals." 
+Given the empty folders (01-13 are all empty), the user has a solid meta-layer (000-META) but zero actual content. The critique essentially says "your idea is vague because you haven't defined the fundamentals." 
 
 The plan should focus on populating in dependency order:
 1. First: 01-NARRATIVE (vision, story, why) — because everything else flows from this
@@ -146,7 +146,7 @@ The user asked for "a start up plan to have a step by step on what to start defi
 
 I should give them a clear actionable plan.
 
-Here is the full picture: **you have a robust meta-layer (00-META with 14 files defining how to write) but the entire content layer (01 through 13) is empty.** The critique essentially validated your direction but shredded the execution because there are zero foundational definitions. Your folder structure already encodes the right dependency order — you just need to populate it with honest, precise content.
+Here is the full picture: **you have a robust meta-layer (000-META with 14 files defining how to write) but the entire content layer (01 through 13) is empty.** The critique essentially validated your direction but shredded the execution because there are zero foundational definitions. Your folder structure already encodes the right dependency order — you just need to populate it with honest, precise content.
 
 Here is the startup plan:
 

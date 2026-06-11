@@ -5,6 +5,8 @@ priority: critical
 status: accepted
 audience: all
 version: 2.0.0
+aliases:
+  - Frontmatter
 ---
 # Metadata: Frontmatter Schema
 
@@ -146,8 +148,8 @@ tags:
   - on-device
 last-reviewed: 2026-06-09
 related:
-  - "06-PRIVACY/data-mapping.md"
-  - "04-DATA-MODEL/user-schema.md"
+  - "400-PRIVACY/data-mapping.md"
+  - "200-DATA-MODEL/user-schema.md"
 aliases:
   - privacy principles
   - data privacy
