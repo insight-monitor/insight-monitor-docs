@@ -12,15 +12,15 @@ This is a **complete, beginner-friendly guide** tailored exactly to your `insigh
 
 ---
 
-# PART 1: The Human-Readable Guide (`00-META/WORKFLOW_GUIDE.md`)
-**Create this file:** `00-META/WORKFLOW_GUIDE.md`
+# PART 1: The Human-Readable Guide (`000-META/WORKFLOW_GUIDE.md`)
+**Create this file:** `000-META/WORKFLOW_GUIDE.md`
 *This is the "README for contributors" — no YAML jargon, just the "How we work here" rules.*
 ![[Workflow-guide]]
 
 ### Linking Rules (Obsidian Native)
-*   **Internal:** `[[06-PRIVACY/data-mapping|Data Mapping Spec]]` (Use full path from root).
+*   **Internal:** `[[400-PRIVACY/data-mapping|Data Mapping Spec]]` (Use full path from root).
 *   **External:** `[GDPR Art. 5](https://gdpr.eu/article-5-how-to-process-personal-data/)`.
-*   **Diagrams:** Embed in note: `![[15-DIAGRAMS/architecture/c4-container.drawio]]`.
+*   **Diagrams:** Embed in note: `![[diagrams (now stored as subdirectory in each domain folder)/architecture/c4-container.drawio]]`.
 *   **No Dead Links:** CI will fail the PR if a `[[wikilink]]` target doesn't exist.
 
 ### Forbidden / Flagged Words (Enforced by Vale)
@@ -40,14 +40,14 @@ This is a **complete, beginner-friendly guide** tailored exactly to your `insigh
 
 > **CONTEXT:** You are editing the `insight-monitor-docs` Obsidian Vault.
 > **RULES:**
-> 1.  **Read `00-META/WORKFLOW_GUIDE.md` first.**
+> 1.  **Read `000-META/WORKFLOW_GUIDE.md` first.**
 > 2.  **Never invent facts.** If unsure, add `[[TODO: Verify with @owner]]` link.
 > 3.  **Maintain Frontmatter.** Update `last-reviewed: {{TODAY}}` on edit.
 > 4.  **Use Wikilinks `[[...]]`** for all internal references.
-> 5.  **Respect Folder Boundaries.** Legal text → `08-LEGAL/` or `06-PRIVACY/`. Tech specs → `09-ARCHITECTURE/`.
-> 6.  **Generate Acceptance Criteria** in `13-USE-CASES-EXAMPLES/` as `Given/When/Then` blocks for QA.
-> 7.  **Diagrams:** Output Mermaid (`.mmd`) code blocks for sequence/flow. Save `.drawio`/`excalidraw` files in `15-DIAGRAMS/`.
-> 8.  **Compliance:** Never write "We comply with X." Write "We implement controls aligned with X per `[[06-PRIVACY/compliance-matrix.md]]`."
+> 5.  **Respect Folder Boundaries.** Legal text → `420-LEGAL/` or `400-PRIVACY/`. Tech specs → `300-ARCHITECTURE/`.
+> 6.  **Generate Acceptance Criteria** in `220-USE-CASES/` as `Given/When/Then` blocks for QA.
+> 7.  **Diagrams:** Output Mermaid (`.mmd`) code blocks for sequence/flow. Save `.drawio`/`excalidraw` files in `diagrams (now stored as subdirectory in each domain folder)/`.
+> 8.  **Compliance:** Never write "We comply with X." Write "We implement controls aligned with X per `[[400-PRIVACY/compliance-matrix.md]]`."
 
 ---
 
@@ -116,7 +116,7 @@ on:
       - '**.md'
       - '**.mmd'
       - '**.drawio'
-      - '15-DIAGRAMS/**'
+      - 'diagrams (now stored as subdirectory in each domain folder)/**'
       - '.github/workflows/docs-ci.yml'
       - '.vale/**' # Config changes trigger re-run
 
@@ -183,9 +183,9 @@ jobs:
           key: vale-styles-${{ hashFiles('.vale/styles/**/*') }}
 
       - name: 🚀 Run Vale
-        # --glob="!98-DEPRECATED/**" ignores deprecated folder
+        # --glob="!980-DEPRECATED/**" ignores deprecated folder
         # --output=line enables GitHub Annotations (red squigglies in PR Files tab)
-        run: vale --glob="!98-DEPRECATED/**" --output=line .
+        run: vale --glob="!980-DEPRECATED/**" --output=line .
 
   # ---------------------------------------------------------
   # JOB C: LINK CHECKING (Internal Wikilinks + External)
@@ -208,7 +208,7 @@ jobs:
       - name: 🔍 Check External Links (HTTPS)
         # Retries 3 times, ignores localhost
         run: |
-          find . -name "*.md" -not -path "./98-DEPRECATED/*" -exec markdown-link-check {} -q -c .markdown-link-check.json \;
+          find . -name "*.md" -not -path "./980-DEPRECATED/*" -exec markdown-link-check {} -q -c .markdown-link-check.json \;
 
       - name: 🧩 Check Internal Wikilinks [[...]]
         run: node .github/tools/linter/check-wikilinks.js
@@ -234,7 +234,7 @@ jobs:
 
       - name: ✅ Validate Mermaid Files (.mmd)
         run: |
-          find . -name "*.mmd" -not -path "./98-DEPRECATED/*" | while read file; do
+          find . -name "*.mmd" -not -path "./980-DEPRECATED/*" | while read file; do
             echo "Checking $file..."
             mmdc -i "$file" -o /dev/null || exit 1
           done
@@ -389,8 +389,8 @@ MinAlertLevel = suggestion # suggestion | warning | error
 md = markdown
 
 # Global Ignores
-Ignore = "98-DEPRECATED/**"
-Ignore = "99-REFERENCES/**" # Often messy PDFs/exports
+Ignore = "980-DEPRECATED/**"
+Ignore = "990-REFERENCES/**" # Often messy PDFs/exports
 Ignore = ".obsidian/**"
 
 # Rule Settings
@@ -526,7 +526,7 @@ Don't make devs wait for CI. Give them `npm run lint` locally.
   "scripts": {
     "lint": "npm-run-all --parallel lint:*",
     "lint:md": "markdownlint-cli2 \"../../**/*.md\" --config ../../.markdownlint.jsonc",
-    "lint:vale": "vale --glob=\"!../../98-DEPRECATED/**\" --output=cli ../../",
+    "lint:vale": "vale --glob=\"!../../980-DEPRECATED/**\" --output=cli ../../",
     "lint:links": "node check-wikilinks.js && node check-external-links.js",
     "lint:frontmatter": "node validate-frontmatter.js",
     "fix:md": "markdownlint-cli2 \"../../**/*.md\" --config ../../.markdownlint.jsonc --fix"
@@ -570,7 +570,7 @@ const ROOT = '../../';
 
 const files = globSync('**/*.md', { 
   cwd: ROOT, 
-  ignore: ['98-DEPRECATED/**', '99-REFERENCES/**', 'node_modules/**', '.obsidian/**'] 
+  ignore: ['980-DEPRECATED/**', '990-REFERENCES/**', 'node_modules/**', '.obsidian/**'] 
 });
 
 let hasErrors = false;
@@ -641,7 +641,7 @@ const WIKILINK_REGEX = /\[\[([^\]|#]+)(?:#[^\]]+)?(?:\|([^\]]+))?\]\]/g;
 
 const mdFiles = globSync('**/*.md', { 
   cwd: ROOT, 
-  ignore: ['98-DEPRECATED/**', 'node_modules/**', '.obsidian/**'] 
+  ignore: ['980-DEPRECATED/**', 'node_modules/**', '.obsidian/**'] 
 });
 
 // Build Index of all valid targets (files + headers)
@@ -731,7 +731,7 @@ if (hasErrors) {
 | Actor | Action | Tool | Time |
 | :--- | :--- | :--- | :--- |
 | **You (PO/Legal)** | "I need new Privacy Policy" | GitHub Web UI → **New Issue** → `Documentation Review Request` | 2 min |
-| **AI Agent (You/Copilot)** | Drafts policy in `06-PRIVACY/` | Obsidian / Cursor (Reads `WORKFLOW_GUIDE.md`) | 5 min |
+| **AI Agent (You/Copilot)** | Drafts policy in `400-PRIVACY/` | Obsidian / Cursor (Reads `WORKFLOW_GUIDE.md`) | 5 min |
 | **Dev** | Reviews AI draft, fixes links | Obsidian → `git commit -m "feat: privacy policy v1"` | 10 min |
 | **Dev** | Pushes branch | `git push origin topic/privacy-v1` | 5 sec |
 | **Bot (CI)** | **Blocks PR if:** "guarantee" used, `[[wikilink]]` broken, `ai-context` missing, Mermaid syntax error | GitHub Actions (`.github/workflows/docs-ci.yml`) | 30 sec |

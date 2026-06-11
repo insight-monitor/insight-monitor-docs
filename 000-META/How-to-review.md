@@ -1,10 +1,12 @@
 ---
-priority: medium
-version: 1.0.0
-type: policy
 domain: critique
+ai-context: high
+title: AI How to Review Prompt
+priority: medium
+type: policy
 status: accepted
 audience: ai
+version: 1.0.0
 ---
 
 # How to Review
