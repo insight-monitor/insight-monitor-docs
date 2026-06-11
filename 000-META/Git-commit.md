@@ -2,7 +2,7 @@
 type: reference
 domain: git
 priority: low
-status: completed
+status: accepted
 audience: developer
 aliases:
   - git commit
@@ -38,14 +38,16 @@ breaking(intent): remove legacy monolith architecture section
 chore(meta): update obsidian-lint rules for frontmatter
 ```
 ## Before committing
-- Make a git status and check the current branch. 
-- If inside main, check for corresponding branch to the changes
-- If branch not found, create a new branch [[Git-branching]]
+- Make a git status and check the current branch.
+- If inside main, you're likely doing a hotfix — verify urgency.
+- If inside develop, push directly (light protection) or create a topic branch for larger changes.
+- If inside a topic branch, ensure it was branched from develop.
+- If branch not found, create a new branch from develop: [[Git-branching]]
 - If branch found, check for `git pull` before trying to commit new changes
 - If more than one topic change, make multiple commits
 ## Unfinished changes commits
-Commits that have `status: raw`:
+Commits that have `status: draft`:
 ```
-<body> <file_name> Status(Raw)-> Refactor/finishing pending
+<body> <file_name> Status(Draft)-> Refactor/finishing pending
 ```
-> Only commit `status:raw` files if absolutely necessary. 
+> Only commit `status: draft` files if absolutely necessary. 

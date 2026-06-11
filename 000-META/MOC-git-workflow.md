@@ -2,7 +2,7 @@
 type: index
 domain: git
 priority: low
-status: completed
+status: accepted
 audience: all
 ---
 - [[Git-commit]] — Commit message convention

@@ -2,7 +2,7 @@
 type: reference
 domain: git
 priority: low
-status: completed
+status: accepted
 audience: developer
 aliases:
   - gitignore

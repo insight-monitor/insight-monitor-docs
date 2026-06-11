@@ -1,12 +1,13 @@
 ---
 domain: git
 type: reference
-status: completed
+status: accepted
 priority: low
 audience: developer
 version: 1.0.0
 aliases:
   - git issue
+  - Documentation Review Request
 ---
 # git issue template
 # Documentation Review Request
@@ -18,11 +19,11 @@ This review occurs **before a Pull Request** and is intended for
 high-level alignment (Legal, Product, Architecture).
 
 ## Branch
-docs/legal-gdpr-update
+topic/legal-gdpr-update
 
 ## Files / Notes Reviewed
-- 02-Legal/Contracts/DPA-v4.2.md
-- 02-Legal/Compliance/GDPR-Mapping.md
+- 420-LEGAL/Contracts/DPA-v4.2.md
+- 420-LEGAL/Compliance/GDPR-Mapping.md
 
 ## Review Focus
 Legal/Compliance
@@ -64,28 +65,30 @@ see the [review request](./.github/ISSUE-TEMPLATE/docs-review-request.yml) YAML 
 
 > **Workflow Context:** This issue represents the **Alignment Phase**.
 > 
-> 1. Write docs in branch `docs/<slug>`
+> 1. Write docs in branch `topic/<slug>` (branched from `develop`)
 >     
 > 2. Open this Issue for Legal / Product / Architecture review
 >     
-> 3. Incorporate feedback
+> 3. Incorporate feedback and push to the same branch
 >     
-> 4. Open Pull Request for technical review and merge
+> 4. Open Pull Request `topic/<slug>` → `develop` for technical review and merge
+>     
+> 5. **Release:** When ready, PR `develop` → `main` for final review and publish
 >     
 
 ---
 
 ## Source Branch Name
 
-`docs/legal-gdpr-update`
+`topic/legal-gdpr-update`
 
 ---
 
 ## Obsidian Vault Relative Path(s)
 
-```text
-02-Legal/Contracts/DPA-v4.2.md
-02-Legal/Compliance/GDPR-Mapping.md
+\```text
+420-LEGAL/Contracts/DPA-v4.2.md
+420-LEGAL/Compliance/GDPR-Mapping.md
 \```
 
 ---
@@ -144,7 +147,7 @@ Related:
 
 - `02-Legal/Compliance/GDPR-Mapping.md`
     
-- `01-Vision/Data-Governance-Principles.md`
+- `100-NARRATIVE/Data-Governance-Principles.md`
     
 
 ### Graph Context
