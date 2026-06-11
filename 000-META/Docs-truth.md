@@ -19,8 +19,8 @@ slug: docs-truth
 7. **Proof and connection**, All `domain: legal` files must contain external links to concerning laws
 8. **Capitalized Folders**, All folders names must be capitalized
 9. **Obsidian links for internal references**, all internal references must use `[[reference]]`
-	1. For specific sections use `[[reference##header]]`
-	2. Use alias for human readability consistency `[[MOC-References##header|a comprehensive text]]` 
+	1. For specific sections use `[[reference#header]]`
+	2. Use alias for human readability consistency `[[MOC-References#header|a comprehensive text]]` 
 10. **Markdown links for external and no-markdown**, use `[something](link)` for links outside the vault's scope and for internal non-markdown links `[this file](file.yml)`
 ## Obvious Rules
 1. **Proper metadata**, Frontmatter must be properly defined for each file

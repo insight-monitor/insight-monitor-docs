@@ -54,18 +54,13 @@ We **do not** edit `main` directly. We **do not** open PRs for *ideas*.
 5.  **Tech/QA Review:** Check diffs, rendering, diagram exports. Self-approval allowed when reviewer is the author.
 6.  **Merge:** Squash & Merge to `develop`. Branch auto-deleted. See [[Git-branching#merge-process|Git-branching: Merge Process]] for full merge rules.
 7.  **Release (on demand):** When `develop` has accumulated enough changes, open a PR `develop` → `main`. After review, Squash & Merge. Issue auto-closed.
-
----
-
-### Hotfix (Emergency)
-**Use sparingly.** Only for urgent fixes (broken links, compliance deadlines, security patches).
-
+### Hotfix
+see [[Git-branching#Hotfix (Emergency)|Hotfix branches]]
 1. Branch directly from `main`: `hotfix/<short-slug>`
 2. Fix + commit on hotfix branch
 3. Open PR `hotfix/<short-slug>` → `main` for expedited review
 4. After merge, immediately backport to `develop` via cherry-pick or PR `hotfix/<short-slug>` → `develop`
 5. Delete the hotfix branch
-
 ---
 
 ## 2. Writing Standards for AI & Humans

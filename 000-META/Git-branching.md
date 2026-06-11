@@ -36,6 +36,8 @@ Changes **≤5 lines or ≤50 characters** that do not affect file meaning, key 
 Examples: typo fixes, date corrections, minor formatting, grammar fixes.
 Non-examples: metadata changes, structural changes, additions of content.
 
-### Hotfix
-
-Hotfixes branch from `main` (not `develop`) and follow the [[Workflow-guide#hotfix-emergency|hotfix process]].
+### Hotfix (Emergency)
+**Use sparingly.** Only for urgent fixes (broken links, compliance deadlines, security patches).
+- Broken links don't always need a hotfix -> Some broken links are future notes guidelines
+- Security patches may occur due to AI hallucination
+- Dead-line documentation issues that need to be addressed for the developing process
