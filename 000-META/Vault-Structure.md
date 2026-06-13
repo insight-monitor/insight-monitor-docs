@@ -1,6 +1,6 @@
 ---
 type: reference
-title: "Vault Structure"
+title: Vault Structure
 domain: documentation-architecture
 priority: critical
 status: accepted
