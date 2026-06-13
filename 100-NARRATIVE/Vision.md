@@ -1,18 +1,24 @@
 ---
+title: Vision
 type: concept
 domain: narrative
 priority: critical
+ai-context: medium
 status: in-progress
 audience: all
-version: 4.0.0
+version: 4.0.1
 tags:
   - vision
   - destination
   - context-aware
   - behavioral-intelligence
   - educational
+aliases:
+  - Insight Monitor Vision
+  - Product's Vision
+creation-date: 2026-06-08
+last-reviewed: 2026-06-12
 ---
-
 # Vision
 
 A world where behavioral data is interpreted through context rather than surface activity.

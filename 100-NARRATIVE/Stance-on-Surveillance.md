@@ -1,14 +1,19 @@
 ---
+title: Stance on Surveillance
 type: concept
 domain: narrative
 priority: critical
+ai-context: high
 status: in-progress
 audience: all
-version: 1.0.0
+version: 1.0.1
 tags:
   - ethics
   - surveillance
   - philosophy
+aliases:
+  - How do we surveil
+  - our surveillance stance
 creation-date: 2026-06-12
 last-reviewed: 2026-06-12
 ---

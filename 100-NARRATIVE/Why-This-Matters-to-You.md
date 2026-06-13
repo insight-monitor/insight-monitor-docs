@@ -1,16 +1,20 @@
 ---
+title: Why this matters to you
 type: concept
 domain: narrative
 priority: critical
+ai-context: high
 status: in-progress
 audience: all
-version: 1.0.0
+version: 1.0.1
 tags:
   - user-perspective
   - worker
   - student
   - personal
   - value-proposition
+aliases:
+  - The monitored stance
 creation-date: 2026-06-12
 last-reviewed: 2026-06-12
 ---

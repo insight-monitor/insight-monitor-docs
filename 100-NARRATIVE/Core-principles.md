@@ -1,12 +1,12 @@
 ---
+title: Core Principles
 type: policy
 domain: narrative
-title: Core Principles
 status: in-progress
 priority: critical
 ai-context: high
 audience: all
-version: 1.0.0
+version: 1.0.1
 aliases:
   - Core Principles
 creation-date: 2026-06-12

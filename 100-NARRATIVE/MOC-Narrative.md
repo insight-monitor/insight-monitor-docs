@@ -1,10 +1,18 @@
 ---
+title: Narrative Map of Content
 type: index
 domain: narrative
 priority: critical
-audience: all
+ai-context: high
 status: in-progress
-version: 2.1.0
+audience: all
+version: 2.1.1
+tags:
+  - MOC
+aliases:
+  - Narrative Map of Content
+creation-date: 2026-06-09
+last-reviewed: 2026-06-12
 ---
 
 # Narrative — Map of Content

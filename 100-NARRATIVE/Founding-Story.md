@@ -1,19 +1,19 @@
 ---
+title: Founding Story
 type: concept
 domain: narrative
 priority: critical
 ai-context: low
 status: in-progress
 audience: all
-version: 1.2.0
-title: Founding Story
+version: 1.2.1
 tags:
   - founding-story
   - context-awareness
-creation-date: 2026-06-09
-last-reviewed: 2026-06-12
 aliases:
   - Founding Story
+creation-date: 2026-06-09
+last-reviewed: 2026-06-12
 ---
 
 # Founding Story
