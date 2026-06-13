@@ -1,10 +1,10 @@
 ---
-title: "User Context Injection"
+title: User Context Injection
 type: concept
 domain: inference
 priority: high
 ai-context: high
-status: draft
+status: review
 audience: all
 version: 0.1.0
 tags:
@@ -12,6 +12,8 @@ tags:
   - user-context
 aliases:
   - User Context Injection
+creation-date: 2026-06-13
+last-reviewed: 2026-06-13
 ---
 ## How context reaches the model
 User-defined context is serialized into a structured block appended to the system prompt before every inference cycle.

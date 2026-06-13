@@ -1,11 +1,13 @@
 ---
-title: "Data Model"
+title: Data Model
+status: accepted
 type: index
 domain: data-model
 priority: critical
 audience: all
 ai-context: high
-status: draft
+creation-date: 2026-06-13
+last-reviewed: 2026-06-13
 ---
 
 ## Data Model

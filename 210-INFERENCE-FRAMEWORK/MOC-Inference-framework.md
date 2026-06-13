@@ -1,11 +1,13 @@
 ---
-title: "Inference Framework"
+title: Inference Framework
+status: accepted
 type: index
 domain: inference
 priority: critical
 audience: all
 ai-context: high
-status: draft
+creation-date: 2026-06-13
+last-reviewed: 2026-06-13
 ---
 
 ## Inference Framework

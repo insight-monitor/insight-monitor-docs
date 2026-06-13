@@ -4,14 +4,16 @@ type: concept
 domain: use-cases
 priority: medium
 ai-context: medium
-status: draft
+status: review
 audience: all
 version: 0.1.0
 tags:
   - use-case
   - knowledge-work
 aliases:
-  - Use Case: Knowledge Work
+  - Use Case Knowledge Work
+creation-date: 2026-06-13
+last-reviewed: 2026-06-13
 ---
 # Use Case: Knowledge Work
 

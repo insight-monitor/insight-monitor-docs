@@ -4,15 +4,17 @@ type: concept
 domain: use-cases
 priority: medium
 ai-context: medium
-status: draft
+status: review
 audience: all
-version: 0.1.0
+version: 1.0.0
+aliases:
+  - "Use case: Personal productivity"
 tags:
   - use-case
   - personal
   - productivity
-aliases:
-  - Use Case: Personal Productivity
+creation-date: 2026-06-13
+last-reviewed: 2026-06-13
 ---
 # Use Case: Personal Productivity
 

@@ -4,7 +4,7 @@ type: concept
 domain: use-cases
 priority: medium
 ai-context: medium
-status: draft
+status: review
 audience: all
 version: 0.1.0
 tags:
@@ -13,6 +13,8 @@ tags:
   - classification
 aliases:
   - Intent vs Category
+creation-date: 2026-06-13
+last-reviewed: 2026-06-13
 ---
 # Intent vs Category: The YouTube Case
 

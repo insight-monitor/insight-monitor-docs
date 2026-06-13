@@ -1,10 +1,10 @@
 ---
-title: "User Context Schema"
+title: User Context Schema
 type: reference
 domain: data-model
 priority: high
 ai-context: high
-status: draft
+status: review
 audience: all
 version: 0.1.0
 tags:
@@ -12,6 +12,8 @@ tags:
   - schema
 aliases:
   - User Context Schema
+creation-date: 2026-06-13
+last-reviewed: 2026-06-13
 ---
 # User Context Schema
 

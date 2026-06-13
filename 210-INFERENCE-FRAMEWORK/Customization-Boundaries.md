@@ -1,10 +1,10 @@
 ---
-title: "Customization Boundaries"
+title: Customization Boundaries
 type: policy
 domain: inference
 priority: high
 ai-context: high
-status: draft
+status: review
 audience: all
 version: 0.1.0
 tags:

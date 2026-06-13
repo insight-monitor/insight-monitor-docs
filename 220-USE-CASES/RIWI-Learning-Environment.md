@@ -4,15 +4,17 @@ type: concept
 domain: use-cases
 priority: medium
 ai-context: medium
-status: draft
+status: review
 audience: all
 version: 0.1.0
+aliases:
+  - Use Case Riwi Learning Environment
 tags:
   - use-case
   - riwi
   - education
-aliases:
-  - Use Case: RIWI Learning Environment
+creation-date: 2026-06-13
+last-reviewed: 2026-06-13
 ---
 # Use Case: RIWI Learning Environment
 

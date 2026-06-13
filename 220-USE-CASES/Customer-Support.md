@@ -4,14 +4,16 @@ type: concept
 domain: use-cases
 priority: medium
 ai-context: medium
-status: draft
+status: review
 audience: all
 version: 0.1.0
 tags:
   - use-case
   - customer-support
 aliases:
-  - Use Case: Customer Support
+  - Use Case Customer Support
+creation-date: 2026-06-13
+last-reviewed: 2026-06-13
 ---
 # Use Case: Customer Support
 

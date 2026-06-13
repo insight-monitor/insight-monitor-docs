@@ -4,14 +4,16 @@ type: concept
 domain: use-cases
 priority: medium
 ai-context: medium
-status: draft
+status: review
 audience: all
 version: 0.1.0
+aliases:
+  - Use Case Software Development
 tags:
   - use-case
   - software-development
-aliases:
-  - Use Case: Software Development
+creation-date: 2026-06-13
+last-reviewed: 2026-06-13
 ---
 # Use Case: Software Development
 

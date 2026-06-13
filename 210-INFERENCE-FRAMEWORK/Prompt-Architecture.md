@@ -1,10 +1,10 @@
 ---
-title: "Prompt Architecture"
+title: Prompt Architecture
 type: reference
 domain: inference
 priority: high
 ai-context: high
-status: draft
+status: review
 audience: all
 version: 0.1.0
 tags:
@@ -12,6 +12,8 @@ tags:
   - system-prompt
 aliases:
   - Prompt Architecture
+creation-date: 2026-06-13
+last-reviewed: 2026-06-13
 ---
 # Prompt Architecture
 

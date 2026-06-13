@@ -4,7 +4,7 @@ type: concept
 domain: use-cases
 priority: medium
 ai-context: medium
-status: draft
+status: review
 audience: all
 version: 0.1.0
 tags:
@@ -12,7 +12,9 @@ tags:
   - compliance
   - audit
 aliases:
-  - Use Case: Compliance Monitoring
+  - Use Case Compliance Monitoring
+creation-date: 2026-06-13
+last-reviewed: 2026-06-13
 ---
 # Use Case: Compliance Monitoring
 

@@ -1,6 +1,6 @@
 ---
 title: Collected Signals
-status: draft
+status: review
 type: reference
 priority: high
 ai-context: high

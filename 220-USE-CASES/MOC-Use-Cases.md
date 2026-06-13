@@ -1,11 +1,13 @@
 ---
-title: "Use Cases"
+title: Use Cases
 type: index
 domain: use-cases
 priority: critical
 audience: all
 ai-context: high
-status: draft
+status: accepted
+creation-date: 2026-06-13
+last-reviewed: 2026-06-13
 ---
 
 ## Use Cases
