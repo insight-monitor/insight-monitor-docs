@@ -44,3 +44,8 @@ When studying this vault, follow this reading order:
 ## MOCs
 
 - 00-META: [[MOC-Meta]]
+- 04-DATA-MODEL: [[MOC-Data-Model]]
+- 05-INFERENCE-FRAMEWORK: [[MOC-Inference]]
+- 11-LIMITATIONS: [[MOC-Limitations]]
+- 12-SCOPE: [[MOC-Scope]]
+- 13-USE-CASES-EXAMPLES: [[MOC-Use-Cases]]
