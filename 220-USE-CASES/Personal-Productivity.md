@@ -1,5 +1,20 @@
 ---
-status: raw
+title: "Use Case: Personal Productivity"
+type: concept
+domain: use-cases
+priority: medium
+ai-context: medium
+status: review
+audience: all
+version: 1.0.0
+aliases:
+  - "Use case: Personal productivity"
+tags:
+  - use-case
+  - personal
+  - productivity
+creation-date: 2026-06-13
+last-reviewed: 2026-06-13
 ---
 # Use Case: Personal Productivity
 
