@@ -43,31 +43,11 @@ When studying this vault, follow this reading order:
 
 ## MOCs
 
-<<<<<<< HEAD
-- 00-META: [[MOC-Meta]]
-- 04-DATA-MODEL: [[MOC-Data-Model]]
-- 05-INFERENCE-FRAMEWORK: [[MOC-Inference]]
-- 11-LIMITATIONS: [[MOC-Limitations]]
-- 12-SCOPE: [[MOC-Scope]]
-- 13-USE-CASES-EXAMPLES: [[MOC-Use-Cases]]
-=======
 - [[MOC-Meta]] — General Metadata MOC
 - [[MOC-Narrative]] — General Narrative MOC
-- [[MOC-Brand-positioning]] — General Brand positioning MOC
-- [[MOC-Core-concept]] — General Core concept MOC
-- [[MOC-Data-model]] — General Data model MOC
-- [[MOC-Inference-framework]] — General Inference framework MOC
-- [[MOC-Privacy]] — General Privacy MOC
-- [[MOC-Security]] — General Security MOC
-- [[MOC-Legal]] — General Legal MOC
-- [[MOC-Architecture]] — General Architecture MOC
-- [[MOC-Risks]] — General Risks MOC
-- [[MOC-Limitations]] — General Limitations MOC
-- [[MOC-Scope]] — General Scope MOC
-- [[MOC-Use-cases-examples]] — General Use cases MOC
-- [[MOC-Critique-iteration]] — General Critique iteration MOC
-- [[MOC-Daily]] — General Daily MOC
-- [[MOC-Sessions]] — General Sessions MOC
-- [[MOC-Deprecated]] — General Deprecated MOC
-- [[MOC-References]] — General References MOC
->>>>>>> 975e378e72aacf1de3023990f12e2fe9a60f4fea
+- [[MOC-Data-Model]] — Data structures and schema definitions
+- [[MOC-Inference]] — Prompt architecture and context injection
+- [[MOC-Use-Cases]] — Practical applications and examples
+- [[MOC-Scope]] — Project scope and objectives
+- [[MOC-Limitations]] — Known constraints and boundaries
+- [[MOC-Sessions]] — AI Sessions for context management
