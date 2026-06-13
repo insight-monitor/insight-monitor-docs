@@ -1,6 +1,11 @@
 ---
+type: index
+domain: data-model
+priority: critical
+audience: all
 status: raw
 ---
+
 ## Data Model
 - [[Collected-Signals]] — Taxonomy of collected signals
 - [[User-Context-Schema]] — User-provided context structure

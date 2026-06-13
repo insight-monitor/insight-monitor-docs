@@ -32,3 +32,15 @@ The AI must be trained to identify personal information is the case some is shar
 Obviously, classic algorithmic solutions and security measures (Like to prevent the gathering of "password" inputs when Scrapping or getting the keyboard inputs) are to be put in order.
 The place where this data is stored should allow to use client side databases, to prevent the cloud and possible data leaking. 
 When using cloud storage, encryption should be the norm.
+
+## Documentation structure
+
+See [[INDEX.md]] for the full navigation guide.
+
+Key documentation:
+- [[MOC-Data-Model]] — Data structures and configuration schema
+- [[MOC-Inference-framework]] — Prompt architecture and context injection
+- [[MOC-Limitations]] — Known constraints and boundaries
+- [[MOC-Scope]] — Project scope, capabilities, and excluded features
+- [[MOC-Use-Cases]] — Practical applications including RIWI
+- [[DECISION-Installation-Approach]] — GUI vs local setup analysis
