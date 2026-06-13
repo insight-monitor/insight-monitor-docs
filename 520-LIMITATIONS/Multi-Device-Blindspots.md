@@ -1,7 +1,7 @@
 ---
 status: raw
 ---
-	# Multi-Device Blindspots
+# Multi-Device Blindspots
 
 The system monitors a single endpoint. Modern work spans multiple devices:
 

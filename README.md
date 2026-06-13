@@ -4,6 +4,7 @@ domain: narrative
 priority: critical
 status: in-progress
 audience: all
+version: 2.0.0
 ---
 
 # Monitor Data
@@ -14,7 +15,7 @@ We use screenshots on certain intervals to see the information on screen and ana
 ## What we do with the Data
 Now, this data is gathered basically in all the similar applications, but what we do with the information and what we create with it, it's what makes us different.
 We search for "intent", "purpose" and "efficiency".
-We use the AI to analyse organically, dynamically and contextualised each and every user activity, the AI analyses the data and as if it were a human, it can see what the user was intended to do, not only what he was doing, if the user was successful, if the action was efficient, and what could the user trying to do next.
+We use the AI to analyze organically, dynamically and contextualized each and every user activity, the AI analyses the data and as if it were a human, it can see what the user was intended to do, not only what he was doing, if the user was successful, if the action was efficient, and what could the user trying to do next.
 This new data created with AI is useful and prevents the toxicity born from other apps that use simple algorithms that qualify something as white or black, and create general and not case specific "qualifications" for the user activity. 
 These applications not only cause more harm than good, but also are easily by passed by the users when the algorithm is known.
 ### Example

@@ -2,9 +2,11 @@
 type: reference
 domain: documentation-architecture
 priority: critical
-status: completed
+status: accepted
 audience: all
-version: 1.0.0
+version: 2.0.0
+aliases:
+  - Frontmatter
 ---
 # Metadata: Frontmatter Schema
 
@@ -61,11 +63,11 @@ This page defines every valid field and value.
 
 | Value         | Description                                |
 | ------------- | ------------------------------------------ |
-| `raw`         | Unprocessed draft, ideas without structure |
-| `in-progress` | Being actively developed                   |
-| `in-review`   | Under review after a significant update    |
-| `completed`   | Stable version                             |
-| `deprecated`  | Superseded, kept for historical reference  |
+| `draft`       | Unprocessed initial ideas without structure |
+| `in-progress` | Being actively developed                    |
+| `review`      | Under review after a significant update     |
+| `accepted`    | Stable, approved version                    |
+| `deprecated`  | Superseded, kept for historical reference   |
 
 ## `audience` — Who needs this content (single value)
 
@@ -77,10 +79,44 @@ This page defines every valid field and value.
 | `legal`     | Legal and compliance review                 |
 | `product`   | Product management and strategy             |
 
+## `title` — Human-readable display name (single value, required)
+
+Free text with spaces, punctuation, and capitalization. Used for rendering in Obsidian,
+MOCs, and plugins. Not to be confused with `aliases`, which are alternative link targets.
+
+## `slug` — Unique stable identifier (optional)
+
+kebab-case identifier for stable cross-referencing across renames and moves.
+Useful for URLs, APIs, and RAG pipelines. Falls back to the filename if omitted.
+
+## `ai-context` — RAG retrieval weight (single value, required)
+
+| Value    | AI Behavior                                                  |
+|----------|--------------------------------------------------------------|
+| `high`   | Prioritize in RAG retrieval results.                         |
+| `medium` | Include when domain-relevant.                                |
+| `low`    | Downrank in retrieval; include only if highly relevant.       |
+
 ## `tags` — Supplementary labels (list)
 
 Free-form tags for cross-cutting concerns not captured by `domain`.
 Examples: `gdpr`, `rag`, `embeddings`, `on-device`, `eu-ai-act`.
+
+## `last-reviewed` — Last review date (optional)
+
+ISO 8601 date (`YYYY-MM-DD`). Records the last human or automated review.
+Recommended for legal, security, and compliance documents where audit trails matter.
+Can be automated via git hooks or CI.
+
+## `related` — Explicit graph links (optional list)
+
+Array of relative paths or `[[wikilinks]]` to other notes.
+Provides explicit edge information for graph-based RAG and AI context resolution.
+
+## `aliases` — Alternative names (optional list)
+
+Free-form alternative names for `[[alias]]` wikilink resolution.
+Enables linking via alternate names (e.g. `workflow guide` links to `Workflow-guide.md`).
 
 ## `version` — File version (optional)
 
@@ -90,6 +126,8 @@ Bump when the file's content has a significant change.
 ## `owner` — Person responsible (optional)
 
 GitHub handle or name: `@SrLampi1001`
+## `creation-date` — Creation date
+Creation date, relevant for session and daily related files.  Format DD/MM/YYYY.
 
 ---
 
@@ -98,13 +136,23 @@ GitHub handle or name: `@SrLampi1001`
 ```yaml
 ---
 type: concept
+title: "Data Privacy Principles"
 domain: privacy
 priority: high
-status: raw
+ai-context: high
+status: draft
 audience: all
-version: 0.1.0
+slug: data-privacy-principles
 tags:
   - gdpr
   - on-device
+last-reviewed: 2026-06-09
+related:
+  - "400-PRIVACY/data-mapping.md"
+  - "200-DATA-MODEL/user-schema.md"
+aliases:
+  - privacy principles
+  - data privacy
+version: 0.1.0
 ---
 ```
