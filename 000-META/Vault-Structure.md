@@ -1,15 +1,21 @@
 ---
-type: reference
 title: Vault Structure
+type: reference
 domain: documentation-architecture
 priority: critical
+ai-context: medium
 status: accepted
 audience: all
+version: 3.0.0
 slug: vault-structure
+tags:
+  - vault
+  - folders
 aliases:
   - vault structure
   - folder map
-last-reviewed: 2026-06-11
+creation-date: 2026-06-10
+last-reviewed: 2026-06-12
 ---
 # Folder Map
 
