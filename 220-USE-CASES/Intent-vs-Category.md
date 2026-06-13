@@ -1,5 +1,18 @@
 ---
-status: raw
+title: "Intent vs Category: The YouTube Case"
+type: concept
+domain: use-cases
+priority: medium
+ai-context: medium
+status: draft
+audience: all
+version: 0.1.0
+tags:
+  - use-case
+  - intent
+  - classification
+aliases:
+  - Intent vs Category
 ---
 # Intent vs Category: The YouTube Case
 

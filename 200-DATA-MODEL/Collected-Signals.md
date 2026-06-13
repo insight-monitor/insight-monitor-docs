@@ -1,7 +1,7 @@
 ---
 title: Collected Signals
 status: draft
-type: data
+type: reference
 priority: high
 ai-context: high
 domain: data-model

@@ -1,5 +1,17 @@
 ---
-status: raw
+title: "Customization Boundaries"
+type: policy
+domain: inference
+priority: high
+ai-context: high
+status: draft
+audience: all
+version: 0.1.0
+tags:
+  - customization
+  - safety
+aliases:
+  - Customization Boundaries
 ---
 # Customization Boundaries
 

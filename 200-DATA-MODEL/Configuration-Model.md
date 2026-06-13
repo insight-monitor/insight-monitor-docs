@@ -1,5 +1,17 @@
 ---
-status: raw
+title: "Configuration Model"
+type: reference
+domain: data-model
+priority: high
+ai-context: high
+status: draft
+audience: all
+version: 0.1.0
+tags:
+  - configuration
+  - settings
+aliases:
+  - Configuration Model
 ---
 # Configuration Model
 

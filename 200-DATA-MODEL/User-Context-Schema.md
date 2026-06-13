@@ -1,5 +1,17 @@
 ---
-status: raw
+title: "User Context Schema"
+type: reference
+domain: data-model
+priority: high
+ai-context: high
+status: draft
+audience: all
+version: 0.1.0
+tags:
+  - user-context
+  - schema
+aliases:
+  - User Context Schema
 ---
 # User Context Schema
 

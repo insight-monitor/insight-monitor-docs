@@ -1,9 +1,11 @@
 ---
+title: "Data Model"
 type: index
 domain: data-model
 priority: critical
 audience: all
-status: raw
+ai-context: high
+status: draft
 ---
 
 ## Data Model

@@ -1,5 +1,17 @@
 ---
-status: raw
+title: "Use Case: Software Development"
+type: concept
+domain: use-cases
+priority: medium
+ai-context: medium
+status: draft
+audience: all
+version: 0.1.0
+tags:
+  - use-case
+  - software-development
+aliases:
+  - Use Case: Software Development
 ---
 # Use Case: Software Development
 

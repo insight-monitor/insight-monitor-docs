@@ -1,5 +1,17 @@
 ---
-status: raw
+title: "Prompt Architecture"
+type: reference
+domain: inference
+priority: high
+ai-context: high
+status: draft
+audience: all
+version: 0.1.0
+tags:
+  - prompt-architecture
+  - system-prompt
+aliases:
+  - Prompt Architecture
 ---
 # Prompt Architecture
 

@@ -1,5 +1,17 @@
 ---
-status: raw
+title: "Use Case: Customer Support"
+type: concept
+domain: use-cases
+priority: medium
+ai-context: medium
+status: draft
+audience: all
+version: 0.1.0
+tags:
+  - use-case
+  - customer-support
+aliases:
+  - Use Case: Customer Support
 ---
 # Use Case: Customer Support
 

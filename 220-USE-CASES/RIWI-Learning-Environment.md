@@ -1,5 +1,18 @@
 ---
-status: raw
+title: "Use Case: RIWI Learning Environment"
+type: concept
+domain: use-cases
+priority: medium
+ai-context: medium
+status: draft
+audience: all
+version: 0.1.0
+tags:
+  - use-case
+  - riwi
+  - education
+aliases:
+  - Use Case: RIWI Learning Environment
 ---
 # Use Case: RIWI Learning Environment
 

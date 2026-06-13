@@ -1,9 +1,11 @@
 ---
+title: "Use Cases"
 type: index
 domain: use-cases
 priority: critical
 audience: all
-status: raw
+ai-context: high
+status: draft
 ---
 
 ## Use Cases
