@@ -4,7 +4,7 @@ type: index
 domain: narrative
 priority: critical
 ai-context: high
-status: in-progress
+status: review
 audience: all
 version: 2.1.1
 tags:

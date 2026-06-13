@@ -2,7 +2,7 @@
 title: Core Principles
 type: policy
 domain: narrative
-status: in-progress
+status: review
 priority: critical
 ai-context: high
 audience: all

@@ -4,7 +4,7 @@ type: concept
 domain: narrative
 priority: critical
 ai-context: high
-status: in-progress
+status: review
 audience: all
 version: 1.0.1
 tags:
