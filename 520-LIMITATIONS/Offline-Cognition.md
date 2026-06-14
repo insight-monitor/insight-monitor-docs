@@ -1,5 +1,20 @@
 ---
-status: raw
+title: Offline Cognition Blindspot
+type: concept
+domain: limitations
+priority: high
+ai-context: medium
+status: review
+audience: all
+version: 1.0.0
+tags:
+  - offline
+  - blindspot
+aliases:
+  - Offline Cognition Blindspot
+  - Thinking Blindspot
+creation-date: 2026-06-13
+last-reviewed: 2026-06-14
 ---
 # Offline Cognition Blindspot
 

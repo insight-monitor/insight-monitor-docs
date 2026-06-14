@@ -1,5 +1,19 @@
 ---
-status: raw
+title: Data Minimization
+type: policy
+domain: scope
+priority: high
+ai-context: medium
+status: review
+audience: all
+version: 1.0.0
+tags:
+  - data-minimization
+  - privacy
+aliases:
+  - Data Minimization
+creation-date: 2026-06-13
+last-reviewed: 2026-06-14
 ---
 ## Minimum viable signals
 The system can deliver value with only these sources:

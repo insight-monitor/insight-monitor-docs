@@ -1,5 +1,18 @@
 ---
-status: raw
+title: Included Capabilities
+type: reference
+domain: scope
+priority: high
+ai-context: medium
+status: review
+audience: all
+version: 1.0.0
+tags:
+  - capabilities
+aliases:
+  - Included Capabilities
+creation-date: 2026-06-13
+last-reviewed: 2026-06-14
 ---
 # Included Capabilities
 

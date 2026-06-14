@@ -1,5 +1,20 @@
 ---
-status: raw
+title: Gaming and Adversarial Behavior
+type: concept
+domain: limitations
+priority: medium
+ai-context: medium
+status: review
+audience: all
+version: 1.0.0
+tags:
+  - gaming
+  - adversarial
+aliases:
+  - Gaming and Adversarial Behavior
+  - Gaming Vectors
+creation-date: 2026-06-13
+last-reviewed: 2026-06-14
 ---
 # Gaming and Adversarial Behavior
 

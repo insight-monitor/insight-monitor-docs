@@ -1,5 +1,18 @@
 ---
-status: raw
+title: Task Ambiguity
+type: concept
+domain: limitations
+priority: high
+ai-context: medium
+status: review
+audience: all
+version: 1.0.0
+tags:
+  - ambiguity
+aliases:
+  - Task Ambiguity
+creation-date: 2026-06-13
+last-reviewed: 2026-06-14
 ---
 # Task Ambiguity
 

@@ -1,9 +1,21 @@
 ---
+title: "Decision: Installation and Configuration Approach"
 type: decision
 domain: architecture
 priority: high
-status: raw
+ai-context: medium
+status: review
 audience: product
+version: 1.0.0
+tags:
+  - decision
+  - installation
+  - gui
+aliases:
+  - Installation Approach
+  - GUI vs Clone
+creation-date: 2026-06-13
+last-reviewed: 2026-06-14
 ---
 
 # Decision: Installation and Configuration Approach

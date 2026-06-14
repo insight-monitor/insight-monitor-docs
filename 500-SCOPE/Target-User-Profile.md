@@ -1,5 +1,19 @@
 ---
-status: raw
+title: Target User Profile
+type: reference
+domain: scope
+priority: high
+ai-context: medium
+status: review
+audience: all
+version: 1.0.0
+tags:
+  - users
+  - audience
+aliases:
+  - Target User Profile
+creation-date: 2026-06-13
+last-reviewed: 2026-06-14
 ---
 # Target User Profile
 

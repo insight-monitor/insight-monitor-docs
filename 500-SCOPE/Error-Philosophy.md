@@ -1,5 +1,19 @@
 ---
-status: raw
+title: Error Philosophy
+type: concept
+domain: scope
+priority: high
+ai-context: medium
+status: review
+audience: all
+version: 1.0.0
+tags:
+  - errors
+  - philosophy
+aliases:
+  - Error Philosophy
+creation-date: 2026-06-13
+last-reviewed: 2026-06-14
 ---
 # Error Philosophy
 

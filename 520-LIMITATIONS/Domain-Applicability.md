@@ -1,5 +1,19 @@
 ---
-status: raw
+title: Domain Applicability Limits
+type: concept
+domain: limitations
+priority: high
+ai-context: medium
+status: review
+audience: all
+version: 1.0.0
+tags:
+  - applicability
+  - domains
+aliases:
+  - Domain Applicability Limits
+creation-date: 2026-06-13
+last-reviewed: 2026-06-14
 ---
 # Domain Applicability Limits
 

@@ -1,5 +1,19 @@
 ---
-status: raw
+title: Prompt Manipulation Risk
+type: concept
+domain: limitations
+priority: medium
+ai-context: medium
+status: review
+audience: all
+version: 1.0.0
+tags:
+  - prompt-manipulation
+  - safety
+aliases:
+  - Prompt Manipulation Risk
+creation-date: 2026-06-13
+last-reviewed: 2026-06-14
 ---
 # Prompt Manipulation Risk
 

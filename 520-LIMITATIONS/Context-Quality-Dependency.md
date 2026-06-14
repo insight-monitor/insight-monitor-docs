@@ -1,5 +1,19 @@
 ---
-status: raw
+title: Context Quality Dependency
+type: concept
+domain: limitations
+priority: medium
+ai-context: medium
+status: review
+audience: all
+version: 1.0.0
+tags:
+  - context
+  - quality
+aliases:
+  - Context Quality Dependency
+creation-date: 2026-06-13
+last-reviewed: 2026-06-14
 ---
 # Context Quality Dependency
 
