@@ -1,6 +1,6 @@
 ---
 title: Glossary
-type: reference
+type: concept
 domain: core-concept
 priority: critical
 ai-context: high
@@ -13,6 +13,7 @@ tags:
 aliases:
   - Glossary
   - Core Definitions
+  - Insight monitor main concepts
 creation-date: 2026-06-14
 last-reviewed: 2026-06-14
 ---
