@@ -16,11 +16,10 @@ last-reviewed: 2026-06-14
 ---
 
 ## Limitations
-- [[Offline-Cognition]] — Blindspot for thinking and reading
-- [[Multi-Device-Blindspots]] — Single endpoint limitation
+- [[Offline-Cognition]] — Blindspot for thinking and reading (see also [[Offline-Cognition-Misclassification]])
+- [[Multi-Device-Blindspots]] — Single endpoint limitation (see also [[Incomplete-Workflow-Inference]])
 - [[Confidence-Uncertainty]] — Probabilistic inference boundaries
 - [[Task-Ambiguity]] — Same signals, different tasks
 - [[Gaming-Adversarial]] — Manipulation vectors
 - [[Domain-Applicability]] — Where the system does not fit
 - [[Context-Quality-Dependency]] — Inference depends on context quality
-- [[Prompt-Manipulation-Risk]] — Risks of user prompt modification

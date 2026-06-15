@@ -1,7 +1,7 @@
 ---
 title: Prompt Manipulation Risk
 type: concept
-domain: limitations
+domain: risks
 priority: medium
 ai-context: medium
 status: review

@@ -142,3 +142,5 @@ A GUI application is mandatory for any serious adoption across the documented
 use cases. The clone approach is reserved for contributors who want to inspect
 internals or contribute code, and should never be the primary distribution
 method for end users.
+
+> **Risk register:** See [[Installation-Approach]] for the consolidated risk entries associated with each option.
