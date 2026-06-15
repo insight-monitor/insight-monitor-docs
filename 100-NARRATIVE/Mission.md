@@ -1,16 +1,20 @@
 ---
+title: Mission
 type: concept
 domain: narrative
 priority: critical
-status: in-progress
+ai-context: high
+status: review
 audience: all
-version: 1.0.0
+version: 1.0.1
 tags:
   - mission
-  - inference-pipeline
-  - multimodal
+aliases:
+  - Product's Mission
+  - Insight Monitor Mission
+creation-date: 2026-06-09
+last-reviewed: 2026-06-12
 ---
-
 # Mission
 
 Build the infrastructure that estimates probable task intent from multimodal computer activity signals.

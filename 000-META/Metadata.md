@@ -17,15 +17,15 @@ This page defines every valid field and value.
 
 ## `type` — What the file IS (single value)
 
-| Value       | Description                                                |
-|-------------|------------------------------------------------------------|
-| `concept`   | Defines an idea, principle, or mental model                |
-| `policy`    | Rules, standards, or directives to follow                  |
-| `process`   | Sequenced steps or instructions to execute                 |
-| `reference` | Schema, template, catalog, or lookup data                  |
-| `decision`  | Record of an architectural or design choice (ADR)          |
-| `truth`     | Foundational, non-negotiable principle                     |
-| `index`     | Navigation file (MOC, table of contents)                   |
+| Value       | Description                                       |
+| ----------- | ------------------------------------------------- |
+| `concept`   | Defines an idea, principle, or mental model       |
+| `policy`    | Rules, standards, or directives to follow         |
+| `process`   | Sequenced steps or instructions to execute        |
+| `reference` | Schema, template, catalog, or lookup data         |
+| `decision`  | Record of an architectural or design choice (ADR) |
+| `truth`     | Foundational, non-negotiable principle            |
+| `index`     | Navigation file (MOC, table of contents)          |
 
 ## `domain` — What SUBJECT the file belongs to (single value)
 
