@@ -6,7 +6,7 @@ priority: medium
 ai-context: medium
 status: review
 audience: all
-version: 1.0.0
+version: 1.1.0
 tags:
   - prompt-manipulation
   - safety

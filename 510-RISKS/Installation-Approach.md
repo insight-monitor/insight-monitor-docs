@@ -6,7 +6,7 @@ priority: medium
 ai-context: medium
 status: review
 audience: all
-version: 1.0.0
+version: 2.0.0
 tags:
   - installation
   - supply-chain
