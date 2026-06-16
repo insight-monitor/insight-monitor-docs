@@ -27,10 +27,5 @@ The system relies on visible digital signals. Significant knowledge work happens
 - Sketching on paper or whiteboards
 - Stepping away to reflect
 
-## Risk
-Users whose work involves high cognitive load with low screen interaction (writers, strategists, researchers) may appear idle or unproductive. The system cannot distinguish deep thinking from being away from the keyboard.
-
-## Mitigation
-- Allow users to mark "focus mode" periods
-- Do not penalize inactivity without additional context
-- Surface uncertainty when screen activity is low but task continuity exists
+## Related risks
+- [[Offline-Cognition-Misclassification]] — High-cognition, low-screen-activity users may appear idle or unproductive.
