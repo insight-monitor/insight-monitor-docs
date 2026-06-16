@@ -1,12 +1,16 @@
 ---
+title: CI/CD GitHub pipeline
 status: draft
 domain: documentation-architecture
-tags:
-  - ai-input
 type: process
 priority: high
+ai-context: low
+tags:
+  - ai-input
 aliases:
   - raw ai response
+creation-date: 2026-06-08
+last-reviewed: 2026-06-13
 ---
 This is a **complete, beginner-friendly guide** tailored exactly to your `insight-monitor-docs` repository, your Obsidian structure, and your "Non-Technical / AI-Assisted / Legal-Heavy" workflow.
 
