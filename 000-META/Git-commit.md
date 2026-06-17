@@ -2,7 +2,7 @@
 title: Git commit
 type: reference
 domain: git
-priority: low
+priority: medium
 ai-context: high
 status: accepted
 audience: developer

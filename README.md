@@ -1,46 +1,89 @@
 ---
+title: Walk through the project
 type: concept
 domain: narrative
 priority: critical
+ai-context: high
 status: in-progress
 audience: all
-version: 2.0.0
+tags:
+  - context
+  - narrative
+  - index
+creation-date: 2026-06-06
+last-reviewed: 2026-06-17
+version: 2.1.0
 ---
 
-# Monitor Data
-The main factor in this tech is the data:
-We monitor the computer activity, unalike other platforms, we use AI and Eyes to "see" and not only gather intent lacking data.
-We monitor the applications opened, Data wrote in these applications, system connections, queries in the network and websites visited.
-We use screenshots on certain intervals to see the information on screen and analyze the data with an AI, we see what applications are on screen at that time, what they have, what the user is doing, etc. 
-## What we do with the Data
-Now, this data is gathered basically in all the similar applications, but what we do with the information and what we create with it, it's what makes us different.
-We search for "intent", "purpose" and "efficiency".
-We use the AI to analyze organically, dynamically and contextualized each and every user activity, the AI analyses the data and as if it were a human, it can see what the user was intended to do, not only what he was doing, if the user was successful, if the action was efficient, and what could the user trying to do next.
-This new data created with AI is useful and prevents the toxicity born from other apps that use simple algorithms that qualify something as white or black, and create general and not case specific "qualifications" for the user activity. 
-These applications not only cause more harm than good, but also are easily by passed by the users when the algorithm is known.
-### Example
-If a user is inside YouTube, some may qualify it as a "bad" action by the user, specially on office working, but our Monitor asks "'Why is he in YouTube?", maybe he is looking a tutorial, maybe he is listening music to focus, maybe he is searching for alternatives, etc. And the AI understands that, uses it's "eyes" and data provided and makes that analysis, not ignoring what the user has been doing all along, to come to an understanding and a proper "qualification" for the user actions.
+# Insight Monitor 
+>Read what [[How-to-use-this-vault|Tools to read this vault comfortably]]
 
-## Security and privacy concerns
-This is an application that gathers the user activity and is capable of seeing the data in the screen, like a person could, but with abilities no normal person usually has, and this rises some security and privacy concerns.
-### Privacy
-The application MUST be user controllable, the user needs to be able to see what data is being shared, and be capable of removing this data from being shared if desired, with no restrictions.
-Obviously, some companies may require a minimum data to be shared at working hours, and they may set up this in their devices, but the user is free to accept or reject this terms.
-The application NEVER should store and/or share passwords, credit data, personal information (Like personal chats with family, couples, etc) and specially private forums or platforms that allow the complete anonymity of the users, as this would be illegal and a total violation to the other applications politics. 
-### Security
-The AI must be trained to identify personal information is the case some is shared, and Remove it before storing any RAG or Context.
-Obviously, classic algorithmic solutions and security measures (Like to prevent the gathering of "password" inputs when Scrapping or getting the keyboard inputs) are to be put in order.
-The place where this data is stored should allow to use client side databases, to prevent the cloud and possible data leaking. 
-When using cloud storage, encryption should be the norm.
+Most productivity monitoring treats activity as if it had a fixed meaning. A website is "productive" or "unproductive." A developer watching a conference talk is flagged as distracted — even when they are unblocking a problem that would have taken hours. The system measured time. It missed the intent that gives the time meaning.
+## Our Foundation
 
-## Documentation structure
+Before diving into architecture or data models, understand why this project exists and what it stands for.
 
-See [[INDEX.md]] for the full navigation guide.
+![[Founding-Story]]
 
-Key documentation:
-- [[MOC-Data-Model]] — Data structures and configuration schema
-- [[MOC-Inference-framework]] — Prompt architecture and context injection
-- [[MOC-Limitations]] — Known constraints and boundaries
-- [[MOC-Scope]] — Project scope, capabilities, and excluded features
-- [[MOC-Use-Cases]] — Practical applications including RIWI
-- [[DECISION-Installation-Approach]] — GUI vs local setup analysis
+From here, the narrative section builds your understanding in order:
+
+1. [[Stance-on-Surveillance]] — What kind of monitoring this is and why it is different
+2. [[Core-principles]] — The inviolable principles that hold the project together
+3. [[Why-This-Matters-to-You]] — Why workers, students, and individuals benefit
+4. [[Vision]] — What success looks like across corporate, educational, and personal domains
+5. [[Mission]] — What we build right now
+
+## Core Concepts
+
+Once you understand the why, ground yourself in the language and axioms of the system:
+
+- [[Glossary]] — Operational definitions of every key term
+- [[First-Principles]] — Foundational axioms that guide every design decision
+
+## What We Measure
+
+The system collects lightweight, multimodal signals — window titles, application names, browser domains, periodic snapshots — and builds a structured picture of user activity. The data model defines exactly what we collect and how it is organized.
+
+Start with [[Collected-Signals]] to understand the raw material, then [[User-Context-Schema]] to see how user-provided context shapes inference, and [[Configuration-Model]] to understand what users can control.
+
+See [[MOC-Data-Model]] for the full section.
+
+## How We Make Sense of the Data
+
+Raw signals mean nothing without inference. The inference framework defines how we turn screen captures and event logs into probabilistic estimates of intent, purpose, and efficiency.
+
+![[MOC-Inference-framework]]
+
+## What This Looks Like in Practice
+
+Use cases make the abstract concrete. They show how the system behaves across different domains and why contextual classification matters.
+![[MOC-Use-Cases]]
+
+## How We Build It
+
+The architecture section covers the system design, tech stack, and evolution plan.
+![[MOC-Architecture]]
+
+## What We Are Building Right Now
+
+Scope defines the boundaries of the system — what is included, what is excluded, and who it is for.
+
+![[MOC-Scope]]
+
+## What Could Go Wrong
+
+Every design decision carries risk. These are documented honestly so they can be monitored and mitigated.
+
+![[MOC-Risks]]
+
+## What We Do Not Do (Yet)
+
+Limitations are not failures — they are known boundaries. Understanding them prevents misapplication.
+
+![[MOC-Limitations]]
+
+## Navigating the Vault
+
+For the complete map of content, see [[INDEX.md]]. Each folder has an MOC (Map of Content) that lists every file in that section.
+
+To understand how this vault itself is organized and maintained, start with [[MOC-Meta]].
