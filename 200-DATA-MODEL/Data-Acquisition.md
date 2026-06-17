@@ -6,14 +6,14 @@ priority: high
 ai-context: high
 status: review
 audience: all
-version: 1.0.0
 tags:
   - acquisition
   - signals
 aliases:
   - Data Acquisition
 creation-date: 2026-06-14
-last-reviewed: 2026-06-14
+last-reviewed: 2026-06-17
+version: 1.0.0
 ---
 # Data Acquisition
 
