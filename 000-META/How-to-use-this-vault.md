@@ -1,10 +1,20 @@
 ---
+title: How to use this documentation
 type: process
 domain: documentation-architecture
 priority: critical
+ai-context: medium
 status: accepted
 audience: all
-version: 2.0.0
+tags:
+  - vault
+  - decision
+  - tools
+aliases:
+  - Tools to read this vault comfortably
+creation-date: 2026-06-08
+last-reviewed: 2026-06-17
+version: 2.1.0
 ---
 # How to use this vault
 
@@ -16,6 +26,7 @@ If the git repository was cloned:
 - Install Obsidian
 - Use community plugins.
   - Continuous reading
+  - Git Plugin
 - Review [[Metadata]] for the frontmatter schema
 
 ## How to read
@@ -26,7 +37,7 @@ This documentation is highly modular. To navigate:
 - **Priority** — Files with `priority: critical` and `priority: high` are the primary reading path. Files with `priority: low` or `optional` should only be read when relevant.
 
 ## How to create
-Make sure to follow the [[File-lifecycle|File lifecycle]]
+Make sure to follow the [[File-lifecycle|File lifecyle]]
 
 ### File naming
 

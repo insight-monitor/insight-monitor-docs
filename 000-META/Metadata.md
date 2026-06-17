@@ -1,12 +1,18 @@
 ---
+title: Metadata
 type: reference
 domain: documentation-architecture
 priority: critical
+ai-context: high
 status: accepted
 audience: all
-version: 2.0.0
+tags:
+  - vault
 aliases:
   - Frontmatter
+creation-date: 2026-06-06
+last-reviewed: 2026-06-17
+version: 2.0.0
 ---
 # Metadata: Frontmatter Schema
 
@@ -135,8 +141,8 @@ Creation date, relevant for session and daily related files.  Format DD/MM/YYYY.
 
 ```yaml
 ---
-type: concept
 title: "Data Privacy Principles"
+type: concept
 domain: privacy
 priority: high
 ai-context: high
@@ -146,13 +152,14 @@ slug: data-privacy-principles
 tags:
   - gdpr
   - on-device
-last-reviewed: 2026-06-09
 related:
   - "400-PRIVACY/data-mapping.md"
   - "200-DATA-MODEL/user-schema.md"
 aliases:
   - privacy principles
   - data privacy
+created-date: 06-06-2026
+last-reviewed: 09-06-2026
 version: 0.1.0
 ---
 ```

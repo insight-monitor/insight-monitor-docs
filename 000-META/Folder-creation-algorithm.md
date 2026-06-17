@@ -1,7 +1,7 @@
 ---
 title: Folder creation Algorithm
-domain: documentation-architecture
 type: process
+domain: documentation-architecture
 priority: high
 ai-context: medium
 status: review
@@ -12,9 +12,9 @@ aliases:
   - how to create a folder
   - folder naming convention
   - semantic ranges
-version: 1.0.1
 creation-date: 2026-06-08
 last-reviewed: 2026-06-13
+version: 1.0.1
 ---
 # Folder Creation Algorithm
 

@@ -6,7 +6,6 @@ priority: critical
 ai-context: medium
 status: accepted
 audience: all
-version: 3.0.0
 slug: vault-structure
 tags:
   - vault
@@ -16,6 +15,7 @@ aliases:
   - folder map
 creation-date: 2026-06-10
 last-reviewed: 2026-06-12
+version: 3.0.1
 ---
 # Folder Map
 

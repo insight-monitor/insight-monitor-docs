@@ -13,6 +13,7 @@ tags:
   - schedule
 aliases:
   - MVP 14-Day Plan
+  - MOC-MVP
 creation-date: 2026-06-15
 last-reviewed: 2026-06-16
 ---

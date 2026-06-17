@@ -6,7 +6,6 @@ priority: critical
 ai-context: low
 status: review
 audience: all
-version: 1.2.1
 tags:
   - founding-story
   - context-awareness
@@ -14,6 +13,7 @@ aliases:
   - Founding Story
 creation-date: 2026-06-09
 last-reviewed: 2026-06-12
+version: 1.2.1
 ---
 
 # Founding Story

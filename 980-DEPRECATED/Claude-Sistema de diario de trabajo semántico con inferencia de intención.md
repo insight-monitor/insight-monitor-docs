@@ -1197,10 +1197,10 @@ y ejecutar comandos de diagnóstico sin salir del browser.
 ## Diseño visual — reglas obligatorias
 
 ### Estética objetivo
-Dark mode nativo. Paleta primaria: púrpura profundo (#7F77DD → #3C3489)
+Dark mode nativo. Paleta primaria: púrpura profundo (#7F77DD → #3 C3489)
 y teal (#1D9E75 → #085041). Acentos en ámbar (#EF9F27) para alertas y
 coral (#D85A30) para errores críticos. Fondos en escala de grays oscuros
-(#1a1a1f → #0d0d10).
+(#1a1a1f → # 0d0d10).
 
 ### Animaciones
 - Todas las transiciones de estado usan Framer Motion con duración 200-400ms
@@ -1317,14 +1317,14 @@ Stack: React 18 + TypeScript + TailwindCSS + Framer Motion + Recharts.
 
 ## Estética
 Dark mode nativo. Paleta:
-- Primario: púrpura #7F77DD → #3C3489
-- Secundario: teal #1D9E75 → #085041
-- Alerta: ámbar #EF9F27
-- Error: coral #D85A30
-- Fondos: #1a1a1f → #0d0d10
+- Primario: púrpura `#7F77DD` → `#3C3489`
+- Secundario: teal `#1D9E75` → `#085041`
+- Alerta: ámbar `#EF9F27`
+- Error: coral `#D85A30`
+- Fondos: `#1a1a1f` → `#0d0d10`
 
 Degradados:
-- Header: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)
+- Header: linear-gradient(135deg, `#1a1a2e` 0%, `#16213e` 50%, `#0f3460` 100%)
 - Cards de agentes: borde con gradiente púrpura → teal animado
 - Gráficas de área: fill degradado desde color de línea a transparente
 

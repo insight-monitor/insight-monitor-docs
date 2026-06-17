@@ -1,18 +1,18 @@
 ---
+title: Semantic Ranges
 type: policy
 domain: documentation-architecture
 priority: high
 ai-context: high
-title: Semantic Ranges
 status: review
 audience: all
-version: 1.0.0
 tags:
   - vault
 aliases:
   - folders categories
 creation-date: 2026-06-10
 last-reviewed: 2026-06-13
+version: 1.0.0
 ---
 # Semantic Ranges (3-digit)
 

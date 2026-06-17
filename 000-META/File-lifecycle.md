@@ -1,18 +1,18 @@
 ---
 title: File life cycle
-domain: documentation-architecture
 type: process
-status: review
+domain: documentation-architecture
 priority: high
 ai-context: medium
+status: review
 audience: all
-version: 2.0.0
 tags:
   - vault
 aliases:
   - File lifecyle
 creation-date: 2026-06-07
 last-reviewed: 2026-06-13
+version: 2.0.0
 ---
 ## Creation
 Start by creating a file at root, make sure to add the minimum frontmatter [[Metadata]]:
