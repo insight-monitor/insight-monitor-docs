@@ -39,6 +39,6 @@ The fronted issues will be almost completely solved with AI agents.
 None
 
 ## To do
-- [ ] Create the issues roadmap
+- [x] Create the issues roadmap
 - [x] Finish the day 1-2 todos
 - [ ] Test functionality

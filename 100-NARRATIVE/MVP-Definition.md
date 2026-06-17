@@ -1,7 +1,7 @@
 ---
 title: MVP Definition
 type: concept
-domain: scope
+domain: narrative
 priority: critical
 ai-context: high
 status: draft
@@ -10,6 +10,7 @@ version: 1.0.0
 tags:
   - mvp
   - definition
+  - index
 aliases:
   - MVP Definition
 creation-date: 2026-06-15
