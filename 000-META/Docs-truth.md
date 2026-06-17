@@ -1,13 +1,17 @@
 ---
+title: Truths of documentation
 type: truth
 domain: documentation-architecture
 priority: critical
+ai-context: high
 status: review
 audience: all
-version: 1.0.0
+slug: docs-truth
 aliases:
   - Docs golden rules
-slug: docs-truth
+creation-date: 2026-06-08
+last-reviewed: 2026-06-17
+version: 1.0.0
 ---
 # Docs Rules
 1. **Files are small**, Files CAN'T contain more than 500 words, except for `status: draft`

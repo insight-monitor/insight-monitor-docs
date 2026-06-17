@@ -1,9 +1,18 @@
 ---
+title: Map of Metadata
 type: index
 domain: documentation-architecture
 priority: critical
-audience: all
+ai-context: high
 status: accepted
+audience: all
+tags:
+  - index
+  - MOC
+  - vault
+creation-date: 2026-06-06
+last-reviewed: 2026-06-17
+version: 1.1.0
 ---
 ## Documentation Architecture (read by default)
 - [[Metadata]] — Frontmatter schema reference

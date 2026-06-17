@@ -1,9 +1,15 @@
 ---
+title: Atomization
 type: policy
 domain: documentation-architecture
 priority: critical
+ai-context: high
 status: accepted
 audience: all
+tags:
+  - vault
+creation-date: 2026-06-08
+last-reviewed: 2026-06-17
 version: 1.0.0
 ---
 

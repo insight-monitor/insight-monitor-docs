@@ -1,12 +1,16 @@
 ---
+title: Pull request template
 type: reference
 domain: git
 priority: low
+ai-context: low
 status: accepted
 audience: developer
-version: 1.0.0
 aliases:
   - PR
+creation-date: 2026-06-08
+last-reviewed: 2026-06-17
+version: 1.0.1
 ---
 # Pull Request Template
 ```markdown

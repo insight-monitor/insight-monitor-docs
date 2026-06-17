@@ -1,11 +1,16 @@
 ---
+title: Git commit
 type: reference
 domain: git
 priority: low
+ai-context: high
 status: accepted
 audience: developer
 aliases:
   - git commit
+creation-date: 2026-06-08
+last-reviewed: 2026-06-17
+version: 1.1.0
 ---
 # Commit Message Convention: 
 **Format:**

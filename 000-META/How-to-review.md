@@ -1,11 +1,13 @@
 ---
-domain: critique
-ai-context: high
 title: AI How to Review Prompt
-priority: medium
 type: policy
+domain: critique
+priority: medium
+ai-context: high
 status: accepted
 audience: ai
+creation-date: 2026-06-08
+last-reviewed: 2026-06-17
 version: 1.0.0
 ---
 

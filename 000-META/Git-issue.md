@@ -1,13 +1,18 @@
 ---
-domain: git
+title: Git issue template
 type: reference
-status: accepted
+domain: git
 priority: low
+ai-context: low
+status: accepted
 audience: developer
-version: 1.0.0
 aliases:
   - git issue
   - Documentation Review Request
+  - Git issue template
+creation-date: 2026-06-08
+last-reviewed: 2026-06-17
+version: 1.0.0
 ---
 # git issue template
 # Documentation Review Request

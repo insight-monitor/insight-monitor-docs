@@ -4,6 +4,8 @@ domain: git
 priority: low
 status: accepted
 audience: developer
+creation-date: 2026-06-08
+last-reviewed: 2026-06-17
 ---
 # Branch strategy: Main → Develop → Topic (GitFlow)
 Do not over-engineer branches. 

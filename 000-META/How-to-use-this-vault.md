@@ -4,6 +4,8 @@ domain: documentation-architecture
 priority: critical
 status: accepted
 audience: all
+creation-date: 2026-06-08
+last-reviewed: 2026-06-17
 version: 2.0.0
 ---
 # How to use this vault

@@ -1,12 +1,17 @@
 ---
+title: Git branch prefixes
 type: reference
 domain: git
 priority: low
+ai-context: medium
 status: accepted
 audience: developer
 slug: git-branch-prefixes
 aliases:
   - branch prefixes
+creation-date: 2026-06-08
+last-reviewed: 2026-06-17
+version: 2.1.0
 ---
 
 # Branch Prefixes

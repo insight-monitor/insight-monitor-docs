@@ -1,8 +1,21 @@
 ---
+title: Index
 type: index
+status: accepted
 domain: meta
 priority: critical
+ai-context: high
 audience: all
+version: 1.0.0
+tags:
+  - index
+  - vault
+  - MOC
+aliases:
+  - Vault Index
+  - MOCs map
+creation-date: 2026-06-06
+last-reviewed: 2026-06-17
 ---
 # AI Consumption Guide
 
@@ -16,49 +29,28 @@ When studying this vault, follow this reading order:
 6. Only read `domain: git` files when performing version control operations or when explicitly asked.
 
 # Index
-
-```
-├── 000-META                   # Project metadata and governance
-├── 100-NARRATIVE              # Conceptual story and vision
-├── 110-BRAND-POSITIONING      # Identity and market placement
-├── 120-CORE-CONCEPTS          # Foundational ideas and principles
-├── 200-DATA-MODEL             # Data structures and schema definitions
-├── 210-INFERENCE-FRAMEWORK    # Logical and computational reasoning models
-├── 220-USE-CASES              # Practical applications and examples
-├── 300-ARCHITECTURE           # System design and technical blueprint
-├── 400-PRIVACY                # Data protection and compliance notes
-├── 410-SECURITY               # Security architecture and protocols
-├── 420-LEGAL                  # Legal considerations and licensing
-├── 500-SCOPE                  # Project scope and objectives
-├── 510-RISKS                  # Potential issues and mitigation strategies
-├── 520-LIMITATIONS            # Known constraints and boundaries
-├── 600-SESSIONS               # AI Sessions for context management
-├── 610-DAILY                  # SCRUM Daily ceremonies compilation
-├── 900-CRITIQUE-ITERATION     # Review and improvement cycles
-├── 980-DEPRECATED             # Deprecated documentation
-├── 990-REFERENCES             # Bibliography and external sources
-├── INDEX                      # Navigation index
-└── README                     # Main documentation entry point
-```
-
+See [[Vault-Structure]]
 ## MOCs
 
-- [[MOC-Meta]] — General Metadata MOC
-- [[MOC-Narrative]] — General Narrative MOC
-- [[MOC-Brand-positioning]] — General Brand positioning MOC
-- [[MOC-Core-concept]] — General Core concept MOC
-- [[MOC-Data-model]] — General Data model MOC
-- [[MOC-Inference-framework]] — General Inference framework MOC
-- [[MOC-Privacy]] — General Privacy MOC
-- [[MOC-Security]] — General Security MOC
-- [[MOC-Legal]] — General Legal MOC
-- [[MOC-Architecture]] — General Architecture MOC
-- [[MOC-Risks]] — General Risks MOC
-- [[MOC-Limitations]] — General Limitations MOC
-- [[MOC-Scope]] — General Scope MOC
-- [[MOC-Use-cases-examples]] — General Use cases MOC
-- [[MOC-Critique-iteration]] — General Critique iteration MOC
-- [[MOC-Daily]] — General Daily MOC
-- [[MOC-Sessions]] — General Sessions MOC
-- [[MOC-Deprecated]] — General Deprecated MOC
-- [[MOC-References]] — General References MOC
+- [[MOC-Meta]] — Folder Metadata MOC
+- [[MOC-git-workflow]] — General girt Workflow MOC
+- [[MOC-Narrative]] — Folder Narrative MOC
+- [[MOC-Brand-positioning]] — Folder Brand positioning MOC
+- [[MOC-Core-concept]] — Folder Core concept MOC
+- [[MOC-Data-model]] — Folder Data model MOC
+- [[MOC-Inference-framework]] — Folder Inference framework MOC
+- [[MOC-Use-Cases]] — Folder Use cases MOC
+- [[MOC-Privacy]] — Folder Privacy MOC
+- [[MOC-Security]] — Folder Security MOC
+- [[MOC-Legal]] — Folder Legal MOC
+- [[MOC-Architecture]] — Folder Architecture MOC
+- [[MOC-Risks]] — Folder Risks MOC
+- [[MOC-Limitations]] — Folder Limitations MOC
+- [[MOC-Scope]] — Folder Scope MOC
+- [[MOC-Use-cases-examples]] — Folder Use cases MOC
+- [[MOC-Critique-iteration]] — Folder Critique iteration MOC
+- [[MOC-Daily]] — Folder Daily MOC
+- [[MVP-14-Day-Plan|MOC-MVP]] — General MVP MOC
+- [[MOC-Sessions]] — Folder Sessions MOC
+- [[MOC-Deprecated]] — Folder Deprecated MOC
+- [[MOC-References]] — Folder References MOC
