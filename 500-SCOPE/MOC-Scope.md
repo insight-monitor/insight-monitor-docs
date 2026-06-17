@@ -18,6 +18,9 @@ last-reviewed: 2026-06-14
 ## Scope
 - [[Included-Capabilities]] — What the system does
 - [[Excluded-Capabilities]] — What the system does not do
+- [[MVP-Definition]] — MVP core promise and success criteria
+- [[MVP-Included]] — MVP included capabilities
+- [[MVP-Excluded]] — MVP excluded capabilities
 - [[Target-User-Profile]] — Who the system is for
 - [[Error-Philosophy]] — Error tolerance and tradeoffs
 - [[Data-Minimization]] — Minimum data required for value
