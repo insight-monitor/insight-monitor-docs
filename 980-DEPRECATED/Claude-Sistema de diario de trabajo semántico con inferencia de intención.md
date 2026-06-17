@@ -1,11 +1,16 @@
 ---
-status: draft
+title: Claude session on Insight Monitor 7 week MVP
+status: deprecated
 type: session
 domain: narrative
-priority: low
-creation-date: 2026-06-02
+audience: all
+priority: none
+ai-context: low
+version: 1.1.0
 aliases:
   - Kevin Claude Session
+creation-date: 2026-06-02
+last-reviewed: 2026-06-16
 ---
 
 # Sistema de diario de trabajo semántico con inferencia de intención

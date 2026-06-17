@@ -6,8 +6,6 @@ priority: high
 ai-context: high
 status: draft
 audience: all
-creation-date: 2026-06-14
-last-reviewed: 2026-06-14
 tags:
   - blindspot
   - ai-input
@@ -18,6 +16,8 @@ tags:
   - productivity
 aliases:
   - Next steps
+creation-date: 2026-06-14
+last-reviewed: 2026-06-14
 ---
 
 # Vault file creation plan

@@ -1,14 +1,19 @@
 ---
-status: draft
+title: Documentation startup plan
+status: deprecated
 type: session
+priority: none
+ai-context: low
 domain: documentation-architecture
 audience: all
 tags:
   - narrative
   - ai-input
-creation-date: 2026-06-08
 aliases:
   - docs startup
+version: 1.1.0
+creation-date: 2026-06-08
+last-reviewed: 2026-06-16
 ---
 # Documentation startup plan from critique
 

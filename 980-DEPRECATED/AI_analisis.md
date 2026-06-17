@@ -1,3 +1,17 @@
+---
+title: AI analysis on Insight Monitor early idea
+status: deprecated
+type: session
+domain: critique
+audience: all
+version: 1.1.0
+priority: none
+ai-context: low
+aliases:
+  - Hard Review on Insight Monitor Early Idea
+last-reviewed: 2026-06-16
+---
+
 Good. Since you asked for merciless, here it is:
 
 This is conceptually interesting, but right now it is also vague, internally inconsistent, legally dangerous, technically underdefined, and full of hand-wavy claims pretending to be differentiation.

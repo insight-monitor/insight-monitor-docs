@@ -1,13 +1,16 @@
 ---
-status: draft
+title: Comparison to 7 week MVP
+status: deprecated
 domain: narrative
 audience: all
-creation-date: 2026-06-11
-priority: high
-ai-context: medium
+priority: none
+ai-context: low
 type: session
 aliases:
   - Narrative naivety and use-case comparative
+version: 1.1.0
+creation-date: 2026-06-11
+last-reviewed: 2026-06-16
 ---
 # Compare narrative folder with README_Kevin.md
 

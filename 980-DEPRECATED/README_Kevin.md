@@ -1,12 +1,15 @@
 ---
+title: 7 week MVP
 type: concept
 audience: all
-status: draft
+status: deprecated
 domain: narrative
-priority: low
+priority: none
+ai-context: low
 creation-date: 2026-06-08
+last-reviewed: 2026-06-16
+version: 1.1.0
 ---
-
 # WorkMemory
 
 > **Operational intelligence platform for BPO and call centers.**
