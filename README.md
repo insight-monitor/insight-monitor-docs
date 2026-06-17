@@ -27,18 +27,18 @@ Before diving into architecture or data models, understand why this project exis
 
 From here, the narrative section builds your understanding in order:
 
-1. [[Stance-on-Surveillance]] — What kind of monitoring this is and why it is different
-2. [[Core-principles]] — The inviolable principles that hold the project together
-3. [[Why-This-Matters-to-You]] — Why workers, students, and individuals benefit
-4. [[Vision]] — What success looks like across corporate, educational, and personal domains
-5. [[Mission]] — What we build right now
+1. ![[Stance-on-Surveillance]]
+2. ![[Core-principles]]
+3. ![[Why-This-Matters-to-You]] 
+4. ![[Vision]]
+5. ![[Mission]] 
 
 ## Core Concepts
 
 Once you understand the why, ground yourself in the language and axioms of the system:
 
-- [[Glossary]] — Operational definitions of every key term
-- [[First-Principles]] — Foundational axioms that guide every design decision
+- ![[Glossary]]
+- ![[First-Principles]] 
 
 ## What We Measure
 
