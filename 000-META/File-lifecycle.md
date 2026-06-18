@@ -4,15 +4,15 @@ type: process
 domain: documentation-architecture
 priority: high
 ai-context: medium
-status: review
+status: accepted
 audience: all
 tags:
   - vault
 aliases:
   - File lifecyle
 creation-date: 2026-06-07
-last-reviewed: 2026-06-13
-version: 2.0.0
+last-reviewed: 2026-06-17
+version: 2.1.0
 ---
 ## Creation
 Start by creating a file at root, make sure to add the minimum frontmatter [[Metadata]]:
@@ -30,3 +30,6 @@ Firstly created documents don't need a strict structure, if you need to do a git
 ## Deletion
 If the files were on `develop` or `main` and were valid, DO NOT delete them, put them into `980-DEPRECATED`.
 If the files only existed on disposable branches or were rejected on Review, they can be Deleted.
+Exceptions to this:
+- Files didn't fit in the documentation.
+- Trash files not related to documentation
