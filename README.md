@@ -42,9 +42,9 @@ Once you understand the why, ground yourself in the language and axioms of the s
 
 ## What We Measure
 
-The system collects lightweight, multimodal signals — window titles, application names, browser domains, periodic snapshots — and builds a structured picture of user activity. The data model defines exactly what we collect and how it is organized.
+The system collects lightweight, multimodal signals — window titles, application names, browser domains, periodic snapshots — and builds a structured picture of user activity.
 
-Start with [[Collected-Signals]] to understand the raw material, then [[User-Context-Schema]] to see how user-provided context shapes inference, and [[Configuration-Model]] to understand what users can control.
+Start with [[Collected-Signals]] to understand the raw material, then [[User-Context-Schema]] to see how user-provided context shapes inference. For technical signal acquisition details and the database schema, see the [code repository docs](https://github.com/insight-monitor/insight-monitor-code/tree/develop/docs/data-model/).
 
 See [[MOC-Data-Model]] for the full section.
 
@@ -52,7 +52,8 @@ See [[MOC-Data-Model]] for the full section.
 
 Raw signals mean nothing without inference. The inference framework defines how we turn screen captures and event logs into probabilistic estimates of intent, purpose, and efficiency.
 
-![[MOC-Inference-framework]]
+Technical inference documentation (prompt architecture, confidence model, context injection, customization boundaries) has been migrated to the [code repository](https://github.com/insight-monitor/insight-monitor-code/tree/develop/docs/inference/).
+For the conceptual overview, see [[MOC-Inference-framework]] (redirect).
 
 ## What This Looks Like in Practice
 
@@ -62,7 +63,8 @@ Use cases make the abstract concrete. They show how the system behaves across di
 ## How We Build It
 
 The architecture section covers the system design, tech stack, and evolution plan.
-![[MOC-Architecture]]
+
+> **Note:** Architecture documentation has migrated to the [code repository](https://github.com/insight-monitor/insight-monitor-code/tree/develop/docs/architecture/). See [[MOC-Architecture]] for the redirect.
 
 ## What We Are Building Right Now
 

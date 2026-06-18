@@ -1,18 +1,19 @@
 ---
 title: Data Model
-status: accepted
 type: index
 domain: data-model
 priority: critical
-audience: all
 ai-context: high
+status: accepted
+audience: all
+version: 1.2.0
 creation-date: 2026-06-13
-last-reviewed: 2026-06-17
-version: 1.1.0
+last-reviewed: 2026-06-18
 ---
 
 ## Data Model
-- [[Collected-Signals]] — Taxonomy of collected signals
-- [[User-Context-Schema]] — User-provided context structure
-- [[Configuration-Model]] — What users can configure
-- [[Data-Acquisition]] — What signals are collected
+
+- [[Collected-Signals]] — Taxonomy of collected signals (conceptual)
+- [[User-Context-Schema]] — User-provided context structure (conceptual)
+
+> **Note:** Technical data model documents (Data Acquisition, Configuration Model) have been migrated to the [insight-monitor-code repository](https://github.com/insight-monitor/insight-monitor-code) — see [docs/data-model/](https://github.com/insight-monitor/insight-monitor-code/tree/develop/docs/data-model/) and [docs/configuration/](https://github.com/insight-monitor/insight-monitor-code/tree/develop/docs/configuration/).

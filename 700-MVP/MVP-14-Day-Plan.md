@@ -45,5 +45,5 @@ Each day at 9:00 AM:
 - [[MVP-Excluded]] - Excluded capacities from MVP
 - [[MVP-Included]] - Included capacities from MVP
 - [[MVP-Definition]] - MVP Narrative
-- [[MVP-Architecture]] - MVP Expected Architecture (Soon will be migrated to [code repository](https://github.com/insight-monitor/insight-monitor-code))
-- [[MVP-Scaling-Path]] - MVP Expected updates to reach full product
+- [[MVP-Architecture]] - MVP Expected Architecture (migrated to [code repository](https://github.com/insight-monitor/insight-monitor-code/tree/develop/docs/architecture/))
+- [[MVP-Scaling-Path]] - MVP Expected updates to reach full product (migrated to [code repository](https://github.com/insight-monitor/insight-monitor-code/tree/develop/docs/architecture/scaling-path.md))

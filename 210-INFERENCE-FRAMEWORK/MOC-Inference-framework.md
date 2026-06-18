@@ -1,18 +1,18 @@
 ---
 title: Inference Framework
-status: accepted
 type: index
 domain: inference
 priority: critical
+ai-context: low
+status: migrated
 audience: all
-ai-context: high
+version: 2.0.0
 creation-date: 2026-06-13
-last-reviewed: 2026-06-13
-version: 1.1.0
+last-reviewed: 2026-06-18
 ---
 
-## Inference Framework
-- [[Prompt-Architecture]] — System prompt structure and constraints
-- [[User-Context-Injection]] — How user context shapes inference
-- [[Customization-Boundaries]] — Limits of user prompt modification
-- [[Confidence-Model]] — System factors of confidence and confidence scores
+# Inference Framework — MIGRATED
+
+All inference framework documentation has been migrated to the [insight-monitor-code repository](https://github.com/insight-monitor/insight-monitor-code).
+
+➡️ See [docs/inference/](https://github.com/insight-monitor/insight-monitor-code/tree/develop/docs/inference/) for the current versions.

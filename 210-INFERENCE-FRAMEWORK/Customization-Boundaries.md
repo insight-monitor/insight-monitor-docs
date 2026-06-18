@@ -3,41 +3,16 @@ title: Customization Boundaries
 type: policy
 domain: inference
 priority: high
-ai-context: high
-status: review
+ai-context: low
+status: migrated
 audience: all
 version: 0.1.0
-tags:
-  - customization
-  - safety
-aliases:
-  - Customization Boundaries
+creation-date: 2026-06-13
+last-reviewed: 2026-06-18
 ---
-# Customization Boundaries
 
-## What the user CAN customize
+# Customization Boundaries — MIGRATED
 
-### Safe zone (allowed in all modes)
-- Role and objectives
-- Application classifications
-- Work/study schedule
-- Sensitivity keywords
-- Data retention period
-- Signal opt-in/opt-out (within policy limits)
+This document has been migrated to the [insight-monitor-code repository](https://github.com/insight-monitor/insight-monitor-code).
 
-### Restricted zone (personal mode only, with limits)
-- Custom free-text instructions appended to prompt
-- Custom classification rules for specific domains
-- Export frequency and format
-
-## What the user CANNOT customize
-
-### Never modifiable
-- System instruction layer (safety, format, constraints)
-- Model architecture and inference parameters
-- Redaction rules for credentials and PII
-- Logging and audit requirements
-- Minimum confidence thresholds for flagged inferences
-
-## Boundary enforcement
-Custom instructions are filtered by the safety layer before injection. Any instruction attempting to override system constraints is silently ignored and logged as an attempted override for audit.
+➡️ See [docs/inference/customization-boundaries.md](https://github.com/insight-monitor/insight-monitor-code/tree/develop/docs/inference/customization-boundaries.md) for the current version.
