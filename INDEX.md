@@ -1,12 +1,11 @@
 ---
 title: Index
 type: index
-status: accepted
 domain: meta
 priority: critical
 ai-context: high
+status: accepted
 audience: all
-version: 1.0.0
 tags:
   - index
   - vault
@@ -16,6 +15,7 @@ aliases:
   - MOCs map
 creation-date: 2026-06-06
 last-reviewed: 2026-06-17
+version: 1.0.0
 ---
 # AI Consumption Guide
 
@@ -38,12 +38,11 @@ See [[Vault-Structure]]
 - [[MOC-Brand-positioning]] — Folder Brand positioning MOC
 - [[MOC-Core-concept]] — Folder Core concept MOC
 - [[MOC-Data-model]] — Folder Data model MOC
-- [[MOC-Inference-framework]] — Folder Inference framework MOC
+- [[Code-Repository-Docs]] — Technical documentation (migrated to code repository)
 - [[MOC-Use-Cases]] — Folder Use cases MOC
 - [[MOC-Privacy]] — Folder Privacy MOC
 - [[MOC-Security]] — Folder Security MOC
 - [[MOC-Legal]] — Folder Legal MOC
-- [[MOC-Architecture]] — Folder Architecture MOC
 - [[MOC-Risks]] — Folder Risks MOC
 - [[MOC-Limitations]] — Folder Limitations MOC
 - [[MOC-Scope]] — Folder Scope MOC

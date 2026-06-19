@@ -26,12 +26,10 @@ version: 3.0.1
 | **110-BRAND-POSITIONING**   | Voice, Tone, Market Fit                        | Marketing / PO             | Medium                                       |
 | **120-CORE-CONCEPTS**       | First Principles, Definitions, Glossary        | Architect / PO             | **Critical** (Grounding definitions)         |
 | **200-DATA-MODEL**          | Entities, Relations, Schemas (Mermaid/DBML)    | Architect / Backend        | **Critical** (Schema generation)             |
-| **210-INFERENCE-FRAMEWORK** | Logic rules, Algorithms, Decision Trees        | Data Science / Backend     | High (Business Logic)                        |
 | **220-USE-CASES**           | User Stories, Scenarios, Test Cases            | PO / QA / UX               | **Critical** (QA/Acceptance Criteria Source) |
-| **300-ARCHITECTURE**        | System Design, ADRs, Infra (C4/PlantUML)       | Architect / Tech Lead      | High (Implementation Guide)                  |
-| **400-PRIVACY**             | GDPR, Data Mapping, DPIA, Retention            | **Legal / DPO**            | **Mandatory** (Compliance Gate)              |
-| **410-SECURITY**            | Threat Models, AuthZ/AuthN, Crypto             | **Security / Architect**   | **Mandatory** (Security Gate)                |
-| **420-LEGAL**               | Contracts, Terms, Licenses, IP                 | **Legal Counsel**          | **Mandatory** (Legal Gate)                   |
+| **400-PRIVACY**             | GDPR, Data Mapping, DPIA, Retention (placeholder) | **Legal / DPO**        | **Mandatory** (Compliance Gate)              |
+| **410-SECURITY**            | Threat Models, AuthZ/AuthN, Crypto (placeholder) | **Security / Architect** | **Mandatory** (Security Gate)                |
+| **420-LEGAL**               | Contracts, Terms, Licenses, IP (placeholder)     | **Legal Counsel**        | **Mandatory** (Legal Gate)                   |
 | **500-SCOPE**               | Phases, Milestones, In/Out of Scope            | PM / PO                    | High (Planning)                              |
 | **510-RISKS**               | Risk Register, Mitigations                     | PM / Tech Lead             | Medium                                       |
 | **520-LIMITATIONS**         | Known Constraints, "Won't Do"                  | PO / Tech Lead             | Medium (Scope Guardrails)                    |

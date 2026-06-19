@@ -1,0 +1,36 @@
+name: Docs CI
+
+on:
+  pull_request:
+    branches: [develop, main]
+  push:
+    branches: [develop]
+
+jobs:
+  frontmatter:
+    name: Validate frontmatter
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: |
+          echo "Checking files have required frontmatter fields..."
+          FAILED=0
+          for f in $(find . -name "*.md" -not -path "./.git/*" -not -path "./.obsidian/*" -not -path "./980-DEPRECATED/*" -not -path "./600-SESSIONS/*"); do
+            if ! head -20 "$f" | grep -q "^---$"; then
+              echo "MISSING frontmatter: $f"
+              FAILED=1
+            elif ! head -20 "$f" | grep -q "^title:"; then
+              echo "MISSING title in: $f"
+              FAILED=1
+            elif ! head -20 "$f" | grep -q "^status:"; then
+              echo "MISSING status in: $f"
+              FAILED=1
+            elif ! head -20 "$f" | grep -q "^type:"; then
+              echo "MISSING type in: $f"
+              FAILED=1
+            fi
+          done
+          exit $FAILED

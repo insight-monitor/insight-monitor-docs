@@ -67,13 +67,14 @@ This page defines every valid field and value.
 
 ## `status` — Maturity level (single value)
 
-| Value         | Description                                |
-| ------------- | ------------------------------------------ |
-| `draft`       | Unprocessed initial ideas without structure |
-| `in-progress` | Being actively developed                    |
-| `review`      | Under review after a significant update     |
-| `accepted`    | Stable, approved version                    |
-| `deprecated`  | Superseded, kept for historical reference   |
+| Value          | Description                                   |
+| -------------- | --------------------------------------------- |
+| `placeholder`  | Reserved space, intentionally empty, awaiting content |
+| `draft`        | Unprocessed initial ideas without structure    |
+| `in-progress`  | Being actively developed                       |
+| `review`       | Under review after a significant update        |
+| `accepted`     | Stable, approved version                       |
+| `deprecated`   | Superseded, kept for historical reference      |
 
 ## `audience` — Who needs this content (single value)
 
