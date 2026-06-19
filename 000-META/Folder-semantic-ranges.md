@@ -39,11 +39,10 @@ version: 1.0.0
 
 200   Domain Knowledge
 ├── 200-DATA-MODEL
-├── 210-INFERENCE-FRAMEWORK
 ├── 220-USE-CASES
 
 300   Technical Architecture
-├── 300-ARCHITECTURE
+└── (migrated — see [[Code-Repository-Docs]])
 
 400   Compliance
 ├── 400-PRIVACY

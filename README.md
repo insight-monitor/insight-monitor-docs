@@ -53,7 +53,6 @@ See [[MOC-Data-Model]] for the full section.
 Raw signals mean nothing without inference. The inference framework defines how we turn screen captures and event logs into probabilistic estimates of intent, purpose, and efficiency.
 
 Technical inference documentation (prompt architecture, confidence model, context injection, customization boundaries) has been migrated to the [code repository](https://github.com/insight-monitor/insight-monitor-code/tree/develop/docs/inference/).
-For the conceptual overview, see [[MOC-Inference-framework]] (redirect).
 
 ## What This Looks Like in Practice
 
@@ -64,7 +63,7 @@ Use cases make the abstract concrete. They show how the system behaves across di
 
 The architecture section covers the system design, tech stack, and evolution plan.
 
-> **Note:** Architecture documentation has migrated to the [code repository](https://github.com/insight-monitor/insight-monitor-code/tree/develop/docs/architecture/). See [[MOC-Architecture]] for the redirect.
+> **Note:** Architecture documentation has migrated to the [code repository](https://github.com/insight-monitor/insight-monitor-code/tree/develop/docs/architecture/).
 
 ## What We Are Building Right Now
 

@@ -16,4 +16,4 @@ last-reviewed: 2026-06-18
 - [[Collected-Signals]] — Taxonomy of collected signals (conceptual)
 - [[User-Context-Schema]] — User-provided context structure (conceptual)
 
-> **Note:** Technical data model documents (Data Acquisition, Configuration Model) have been migrated to the [insight-monitor-code repository](https://github.com/insight-monitor/insight-monitor-code) — see [docs/data-model/](https://github.com/insight-monitor/insight-monitor-code/tree/develop/docs/data-model/) and [docs/configuration/](https://github.com/insight-monitor/insight-monitor-code/tree/develop/docs/configuration/).
+> **Note:** Technical data model documents (Data Acquisition, Configuration Model) have been migrated to the [insight-monitor-code repository](https://github.com/insight-monitor/insight-monitor-code). See [[Code-Repository-Docs]] for a full map of migrated documentation.

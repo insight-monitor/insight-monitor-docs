@@ -13,7 +13,11 @@ last-reviewed: 2026-06-18
 
 # References — Map of Content
 
-This folder is a placeholder for external references.
+This folder indexes external references and the bridge to the code repository's technical documentation.
+
+## Code Repository Bridge
+
+- [[Code-Repository-Docs]] — Maps migrated technical docs to their locations in the code repository
 
 ## Planned contents
 
