@@ -6,9 +6,9 @@ priority: medium
 ai-context: medium
 status: accepted
 audience: all
-version: 1.0.0
 creation-date: 2026-06-19
 last-reviewed: 2026-06-19
+version: 1.0.0
 ---
 
 # Code Repository Documentation

@@ -1,12 +1,11 @@
 ---
 title: Index
 type: index
-status: accepted
 domain: meta
 priority: critical
 ai-context: high
+status: accepted
 audience: all
-version: 1.0.0
 tags:
   - index
   - vault
@@ -16,6 +15,7 @@ aliases:
   - MOCs map
 creation-date: 2026-06-06
 last-reviewed: 2026-06-17
+version: 1.0.0
 ---
 # AI Consumption Guide
 

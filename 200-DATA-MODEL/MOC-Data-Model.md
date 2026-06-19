@@ -6,9 +6,9 @@ priority: critical
 ai-context: high
 status: accepted
 audience: all
-version: 1.2.0
 creation-date: 2026-06-13
 last-reviewed: 2026-06-18
+version: 1.2.0
 ---
 
 ## Data Model

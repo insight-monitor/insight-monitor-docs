@@ -6,9 +6,9 @@ priority: low
 ai-context: low
 status: placeholder
 audience: all
-version: 0.0.1
 creation-date: 2026-06-18
 last-reviewed: 2026-06-18
+version: 0.0.1
 ---
 
 # References — Map of Content

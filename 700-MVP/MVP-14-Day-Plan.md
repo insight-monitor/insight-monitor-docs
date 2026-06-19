@@ -6,7 +6,6 @@ priority: critical
 ai-context: high
 status: accepted
 audience: all
-version: 2.1.0
 tags:
   - mvp
   - plan
@@ -16,6 +15,7 @@ aliases:
   - MOC-MVP
 creation-date: 2026-06-15
 last-reviewed: 2026-06-16
+version: 2.1.0
 ---
 
 # MVP Execution Plan
