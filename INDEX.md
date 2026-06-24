@@ -49,7 +49,8 @@ See [[Vault-Structure]]
 - [[MOC-Use-cases-examples]] — Folder Use cases MOC
 - [[MOC-Critique-iteration]] — Folder Critique iteration MOC
 - [[MOC-Daily]] — Folder Daily MOC
-- [[MVP-14-Day-Plan|MOC-MVP]] — General MVP MOC
+- [[Inference-Pipeline-v0.1-vs-MVP|MOC-Pipeline]] — Inference Pipeline v0.1 vs Product MVP
+- [[MVP-14-Day-Plan|MOC-Pipeline-Plan]] — Pipeline v0.1 14-Day Execution Plan
 - [[MOC-Sessions]] — Folder Sessions MOC
 - [[MOC-Deprecated]] — Folder Deprecated MOC
 - [[MOC-References]] — Folder References MOC

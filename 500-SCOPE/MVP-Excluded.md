@@ -1,24 +1,27 @@
 ---
-title: MVP Excluded Capabilities
+title: Inference Pipeline v0.1 Excluded Capabilities
 type: reference
 domain: scope
 priority: critical
 ai-context: high
-status: draft
+status: accepted
 audience: all
-version: 1.0.0
+version: 2.0.0
 tags:
-  - mvp
+  - inference-pipeline
   - boundaries
 aliases:
-  - MVP Excluded Capabilities
+  - Pipeline v0.1 Excluded
+  - MVP-Excluded (legacy alias)
 creation-date: 2026-06-15
-last-reviewed: 2026-06-15
+last-reviewed: 2026-06-24
 ---
 
-# MVP Excluded Capabilities
+# Inference Pipeline v0.1 Excluded Capabilities
 
-All items below are excluded from the 14-day MVP but noted with scaling intent.
+All items below are excluded from the **Inference Pipeline v0.1** (14-day sprint, June 15–29) but noted with scaling intent toward the full **Product MVP**.
+
+> **Note**: The technical exclusion list remains unchanged from the prior MVP scope. The re-scoping only changes terminology: "MVP" → "Inference Pipeline v0.1" for this sprint's deliverable. The full Product MVP adds challengeability, transparency, and individual benefit features (see [[MVP-Definition]]).
 
 ## Storage & Infrastructure
 
