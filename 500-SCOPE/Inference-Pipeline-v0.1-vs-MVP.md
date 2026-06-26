@@ -6,7 +6,7 @@ priority: critical
 ai-context: high
 status: accepted
 audience: all
-version: 1.0.0
+version: 2.0.0
 tags:
   - inference-pipeline
   - mvp
@@ -17,8 +17,6 @@ aliases:
 creation-date: 2026-06-24
 last-reviewed: 2026-06-24
 ---
----
-
 # Inference Pipeline v0.1 vs Product MVP — Scope Comparison
 
 ## Executive Summary
@@ -98,20 +96,12 @@ Requires:
 
 ---
 
-## Decision Log
-
-| Date | Decision | Rationale |
-|------|----------|-----------|
-| 2026-06-24 | Re-scope June 15-29 sprint to "Inference Pipeline v0.1" | Clarify that ethical/product features need separate investment |
-| 2026-06-24 | Keep technical scope unchanged | Engineering effort already committed; only terminology changes |
-
----
-
 ## References
 
-- [[MVP-Definition]] — v0.1 narrative with explicit exclusions
-- [[MVP-Included]] — Technical capabilities in v0.1
-- [[MVP-Excluded]] — Technical capabilities deferred
+- [[Inference-Pipeline-Definition]] — v0.1 narrative with explicit exclusions
+- [[MVP-Definition]] — Product MVP definition with ethical safeguards
+- [[Inference-Pipeline-Included]] — Technical capabilities in v0.1
+- [[Inference-Pipeline-Excluded]] — Technical capabilities deferred
 - [[Core-principles]] — Ethical principles driving Product MVP scope
 - [[Stance-on-Surveillance]] — Observation vs Control philosophy
-- Code repo: [ARCH-0 Master Plan](https://github.com/insight-monitor/insight-monitor-code/issues/41)
+- Code repository Inference-Pipeline plan : [ARCH-0 Master Plan](https://github.com/insight-monitor/insight-monitor-code/issues/41)

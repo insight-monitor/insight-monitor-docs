@@ -36,3 +36,5 @@ last-reviewed: 2026-06-12
 | Why-This-Matters-to-You.md | Value proposition for the monitored person: worker, student, individual                            |
 | Vision.md                  | Future state: behavioral intelligence becomes context-aware and probabilistic across three domains |
 | Mission.md                 | Current work: infrastructure that estimates probable intent from multimodal signals                |
+| MVP-Definition.md          | Product MVP definition: full product with ethical safeguards                                       |
+| Inference-Pipeline-Definition.md | Inference Pipeline v0.1 narrative with explicit exclusions                                  |

@@ -19,9 +19,10 @@ last-reviewed: 2026-06-24
 - [[Included-Capabilities]] — What the system does
 - [[Excluded-Capabilities]] — What the system does not do
 - [[Inference-Pipeline-v0.1-vs-MVP]] — Pipeline v0.1 vs Product MVP scope comparison
-- [[MVP-Definition]] — Inference Pipeline v0.1 core promise (clarified scope)
-- [[MVP-Included]] — Pipeline v0.1 included capabilities (legacy alias)
-- [[MVP-Excluded]] — Pipeline v0.1 excluded capabilities (legacy alias)
+- [[Inference-Pipeline-Definition]] — Inference Pipeline v0.1 core promise (clarified scope)
+- [[MVP-Definition]] — Product MVP definition (ethical product with safeguards)
+- [[Inference-Pipeline-Included]] — Pipeline v0.1 included capabilities (legacy alias)
+- [[Inference-Pipeline-Excluded]] — Pipeline v0.1 excluded capabilities (legacy alias)
 - [[Target-User-Profile]] — Who the system is for
 - [[Error-Philosophy]] — Error tolerance and tradeoffs
 - [[Data-Minimization]] — Minimum data required for value

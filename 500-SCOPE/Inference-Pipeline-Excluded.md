@@ -6,7 +6,7 @@ priority: critical
 ai-context: high
 status: accepted
 audience: all
-version: 2.0.0
+version: 2.1.0
 tags:
   - inference-pipeline
   - boundaries
@@ -21,7 +21,7 @@ last-reviewed: 2026-06-24
 
 All items below are excluded from the **Inference Pipeline v0.1** (14-day sprint, June 15–29) but noted with scaling intent toward the full **Product MVP**.
 
-> **Note**: The technical exclusion list remains unchanged from the prior MVP scope. The re-scoping only changes terminology: "MVP" → "Inference Pipeline v0.1" for this sprint's deliverable. The full Product MVP adds challengeability, transparency, and individual benefit features (see [[MVP-Definition]]).
+> **Note**: The technical exclusion list remains unchanged from the prior MVP scope. The re-scoping only changes terminology: "MVP" → "Inference Pipeline v0.1" for this sprint's deliverable. The full Product MVP adds challengeability, transparency, and individual benefit features (see [[Inference-Pipeline-Definition]]).
 
 ## Storage & Infrastructure
 

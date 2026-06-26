@@ -6,7 +6,7 @@ priority: critical
 ai-context: high
 status: accepted
 audience: all
-version: 2.0.0
+version: 3.0.0
 tags:
   - inference-pipeline
   - capabilities
@@ -19,7 +19,7 @@ last-reviewed: 2026-06-24
 
 # Inference Pipeline v0.1 Included Capabilities
 
-> **Note**: The technical inclusion list remains unchanged. The re-scoping only changes terminology: the 14-day sprint delivers **Inference Pipeline v0.1** — the contextual inference engine. The full Product MVP adds challengeability, transparency views, self-insight dashboard, and proportionality controls (see [[MVP-Definition]]).
+> **Note**: The technical inclusion list remains unchanged. The re-scoping only changes terminology: the 14-day sprint delivers **Inference Pipeline v0.1** — the contextual inference engine. The full Product MVP adds challengeability, transparency views, self-insight dashboard, and proportionality controls (see [[Inference-Pipeline-Definition]]).
 
 ## Capture Agent (Python 3.11+)
 

@@ -45,7 +45,7 @@ Each day at 9:00 AM:
 ## Inference Pipeline v0.1 Docs
 - [[Inference-Pipeline-Excluded]] - Excluded capacities from v0.1
 - [[Inference-Pipeline-Included]] - Included capacities from v0.1
-- [[MVP-Definition]] - Inference Pipeline v0.1 Narrative (see note below)
+- [[Inference-Pipeline-Definition]] - Inference Pipeline v0.1 Narrative (see note below)
 - Expected Architecture — [code repository](https://github.com/insight-monitor/insight-monitor-code/tree/develop/docs/architecture/)
 - Expected updates to reach full product — [code repository](https://github.com/insight-monitor/insight-monitor-code/tree/develop/docs/architecture/scaling-path.md)
 

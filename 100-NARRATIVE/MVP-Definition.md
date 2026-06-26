@@ -1,66 +1,73 @@
 ---
-title: Inference Pipeline v0.1 Definition
+title: Product MVP Definition
 type: concept
 domain: narrative
 priority: critical
 ai-context: high
 status: draft
 audience: all
-version: 2.0.0
+version: 1.0.0
 tags:
-  - inference-pipeline
+  - mvp
+  - product
   - definition
-  - index
 aliases:
-  - Inference Pipeline v0.1 Definition
-  - MVP-Definition (legacy alias)
-creation-date: 2026-06-15
-last-reviewed: 2026-06-24
+  - Product MVP
+  - Full MVP
+creation-date: 2026-06-26
+last-reviewed: 2026-06-26
 ---
 
-# Inference Pipeline v0.1 Definition
+# Product MVP Definition
 
-> **Scope Clarification**: This document describes the **Inference Pipeline v0.1** — the core technical engine delivered in the 14-day sprint (June 15–29). The full **Product MVP** (including transparency, challengeability, individual benefit features per [[Core-principles]]) is out of scope for v0.1 and tracked for post-v0.1 delivery.
+> **Scope Clarification**: This document defines the **Product MVP** — the full product with ethical safeguards per [[Core-principles]]. The **Inference Pipeline v0.1** (June 15–29 sprint) delivers only the technical inference engine. See [[Inference-Pipeline-v0.1-vs-MVP]].
 
 ## Core Promise
 
-A working end-to-end **inference engine** that captures computer activity on a Linux desktop, sends it through an AI inference pipeline, and displays inferred intent in a web dashboard. The system distinguishes learning activities from entertainment, identifies friction points in workflows, and produces confidence-scored session classifications.
+A monitoring system where the **monitored person is the primary beneficiary**. Every inference is transparent, challengeable, and proportional. The system provides self-insight, not just surveillance.
 
-## Target Audience for v0.1 Demo
+## Target Audience for Product MVP
 
-**Riwi Coders and stakeholders.** The v0.1 demo demonstrates the **technical differentiator**: contextual AI classification over binary labels. It shows the same signal (YouTube, Discord, ChatGPT) classified differently depending on surrounding context — with explicit confidence scores and evidence traces.
+**Monitored persons** (workers, students, individuals) and **observers** (supervisors, educators, organizations) — with the monitored person's benefit as the north star.
 
-## Inference Pipeline v0.1 in One Sentence
+## Product MVP in One Sentence
 
-A Python agent captures window titles, screenshots, and input patterns on a Linux desktop; a Gemini API call infers the user's probable intent per session; a React dashboard displays the results.
+An end-to-end monitoring platform that captures activity, infers intent with contextual AI, and gives **both** the observer and the monitored person full transparency, challengeability, and self-insight — built on Observation > Control architecture.
 
-## Key Differentiator Demonstrated
+## What Success Looks Like (Product MVP)
 
-Unlike tools that label "YouTube = distraction," the inference pipeline classifies YouTube as "technical learning" when paired with a code editor and documentation sites, or "entertainment" when activity context suggests personal use — with explicit confidence scores and evidence traces.
+1. **Transparency View** — Monitored person sees all raw events, derived sessions, inferences, and evidence traces
+2. **Challengeability** — "Correct this" button on every inference; feedback retrains the prompt
+3. **Self-Insight Dashboard** — Focus patterns, break quality, task energy, progress over time
+4. **Proportionality Controls** — Per-inference data justification; no indiscriminate logging
+5. **Uncertainty UI** — "We don't know" surfaced as a feature, not hidden
+6. **Power Distribution** — Opt-in, data ownership, no secret scores
 
-## What Success Looks Like on June 29 (v0.1)
+## Product MVP Capabilities (Beyond Pipeline v0.1)
 
-1. A simulated Riwi Coder session (VS Code → MDN docs → Discord → YouTube tutorial) is captured, inferred, and displayed correctly in the dashboard
-2. The same session shown through naive classification (YouTube = bad, Discord = bad) versus Insight Monitor's contextual classification3. At least one friction point is identified by the AI (e.g., "User switched between 3 tabs to find the correct API reference")
-4. The demo runs on a live Ubuntu machine, not just a simulation
-
-## What Is NOT in v0.1 (Deferred to Product MVP)
-
-| Capability | Core Principle | Post-v0.1 Tracking |
-|---|---|---|
-| **Challengeability** — User can dispute/reframe inferences | Challengeability | [[Use-Case-Challenge-Inference]] |
-| **Transparency View** — User sees all collected data & inferences | Transparency | [[Use-Case-Transparency-View]] |
-| **Individual Benefit Dashboard** — Self-insight for monitored person | Individual Benefit | [[Use-Case-Self-Insight]] |
-| **Uncertainty UI** — "We don't know" surfaced as feature | Uncertainty as Feature | [[Use-Case-Uncertainty-UI]] |
-| **Proportionality Controls** — Per-inference data justification | Proportionality | [[Use-Case-Proportionality]] |
-| **Observation vs Control** — Power distribution features | Observation vs Control | [[Use-Case-Power-Distribution]] |
-
-## Relationship to Full Product Vision
-
-| Layer | v0.1 Delivers | Product MVP Adds |
-|---|---|---|
+| Layer | Pipeline v0.1 Delivers | Product MVP Adds |
+|-------|------------------------|------------------|
 | **Capture** | Window title, screenshots, input freq | Browser extension, clipboard metadata, Wayland |
 | **Inference** | Session → Intent (Riwi-aware) | Dynamic catalog, anomaly detection, NL query |
 | **API** | REST endpoints for sessions/intent | Auth, multi-tenant, webhooks |
-| **Dashboard** | Observer view (session list + detail) | **Self-view** (transparency, challenge, self-insight) |
-| **Ethics** | Error philosophy (false positive near zero) | Challengeability, proportionality, user control |
+| **Dashboard** | Observer view only | **Self-view** (transparency, challenge, self-insight) |
+| **Ethics** | Error philosophy (false positive near zero) | **Challengeability, proportionality, user control** |
+
+## Ethical Guardrails (Non-Negotiable)
+
+- **No inference without evidence trace** — Every classification links to source signals
+- **No challenge without feedback loop** — Disputes improve the model
+- **No data without proportionality justification** — Each signal tied to inference need
+- **No dashboard without self-view** — Monitored person sees what observer sees
+- **No "confident" without uncertainty** — Low confidence = "we don't know" UI
+
+## Relationship to Inference Pipeline v0.1
+
+The Pipeline v0.1 is the **technical foundation**. The Product MVP is the **ethical product**. Pipeline v0.1 proves the technical thesis; Product MVP proves the ethical thesis.
+
+## References
+
+- [[Inference-Pipeline-v0.1-vs-MVP]] — Detailed scope comparison
+- [[Core-principles]] — Ethical principles driving Product MVP
+- [[Stance-on-Surveillance]] — Observation vs Control philosophy
+- [[Inference-Pipeline-Definition]] — Pipeline v0.1 narrative (legacy alias)
