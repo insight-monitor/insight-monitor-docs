@@ -1,10 +1,22 @@
 ---
+title: Index
 type: index
 domain: meta
 priority: critical
+ai-context: high
+status: accepted
 audience: all
+tags:
+  - index
+  - vault
+  - MOC
+aliases:
+  - Vault Index
+  - MOCs map
+creation-date: 2026-06-06
+last-reviewed: 2026-06-17
+version: 1.0.0
 ---
-
 # AI Consumption Guide
 
 When studying this vault, follow this reading order:
@@ -13,34 +25,33 @@ When studying this vault, follow this reading order:
 2. Read each folder's MOC (Map of Content) in numerical order.
 3. Within each MOC, process files by `priority`: critical → high → medium.
 4. Skip files with `priority: low` or `priority: optional` unless explicitly asked about their domain.
-5. Ignore files with `status: raw` or `status: deprecated`.
+5. Ignore files with `status: draft` or `status: deprecated`.
 6. Only read `domain: git` files when performing version control operations or when explicitly asked.
 
 # Index
-
-```
-├── 00-META                     # Project metadata and overview
-├── 01-NARRATIVE                # Conceptual story and vision
-├── 02-BRAND-POSITIONING        # Identity and market placement
-├── 03-CORE-CONCEPT             # Foundational ideas and principles
-├── 04-DATA-MODEL               # Data structures and schema definitions
-├── 05-INFERENCE-FRAMEWORK      # Logical and computational reasoning models
-├── 06-PRIVACY                  # Data protection and compliance notes
-├── 07-SECURITY                 # Security architecture and protocols
-├── 08-LEGAL                    # Legal considerations and licensing
-├── 09-ARCHITECTURE             # System design and technical blueprint
-├── 10-RISKS                    # Potential issues and mitigation strategies
-├── 11-LIMITATIONS              # Known constraints and boundaries
-├── 12-SCOPE                    # Project scope and objectives
-├── 13-USE-CASES-EXAMPLES       # Practical applications and examples
-├── 14-CRITIQUE-ITERATION       # Review and improvement cycles
-├── 15-DIAGRAMS                 # Visual representations and flowcharts
-├── 98-DEPRECATED               # Deprecated documenatation
-├── 99-REFERENCES               # Bibliography and external sources
-├── INDEX                       # Navigation index
-└── README                      # Main documentation entry point
-```
-
+See [[Vault-Structure]]
 ## MOCs
 
-- 00-META: [[MOC-Meta]]
+- [[MOC-Meta]] — Folder Metadata MOC
+- [[MOC-git-workflow]] — General girt Workflow MOC
+- [[MOC-Narrative]] — Folder Narrative MOC
+- [[MOC-Brand-positioning]] — Folder Brand positioning MOC
+- [[MOC-Core-concept]] — Folder Core concept MOC
+- [[MOC-Data-model]] — Folder Data model MOC
+- [[Code-Repository-Docs]] — Technical documentation (migrated to code repository)
+- [[MOC-Use-Cases]] — Folder Use cases MOC
+- [[MOC-Privacy]] — Folder Privacy MOC
+- [[MOC-Security]] — Folder Security MOC
+- [[MOC-Legal]] — Folder Legal MOC
+- [[MOC-Risks]] — Folder Risks MOC
+- [[MOC-Limitations]] — Folder Limitations MOC
+- [[MOC-Scope]] — Folder Scope MOC
+- [[MOC-Use-cases-examples]] — Folder Use cases MOC
+- [[MOC-Critique-iteration]] — Folder Critique iteration MOC
+- [[MOC-Daily]] — Folder Daily MOC
+- [[Inference-Pipeline-v0.1-vs-MVP|MOC-Pipeline]] — Inference Pipeline v0.1 vs Product MVP
+- [[MVP-Definition]] — Product MVP definition with ethical safeguards
+- [[MVP-14-Day-Plan|MOC-Pipeline-Plan]] — Pipeline v0.1 14-Day Execution Plan
+- [[MOC-Sessions]] — Folder Sessions MOC
+- [[MOC-Deprecated]] — Folder Deprecated MOC
+- [[MOC-References]] — Folder References MOC
