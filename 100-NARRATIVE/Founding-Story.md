@@ -14,6 +14,8 @@ aliases:
 creation-date: 2026-06-09
 last-reviewed: 2026-06-12
 version: 1.2.1
+parent:
+  - "[[100-NARRATIVE]]"
 ---
 
 # Founding Story

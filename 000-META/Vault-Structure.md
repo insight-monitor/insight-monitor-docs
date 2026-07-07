@@ -16,6 +16,8 @@ aliases:
 creation-date: 2026-06-10
 last-reviewed: 2026-06-12
 version: 3.0.1
+parent:
+  - "[[000-META]]"
 ---
 # Folder Map
 

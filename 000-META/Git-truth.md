@@ -9,6 +9,8 @@ audience: developer
 creation-date: 2026-06-08
 last-reviewed: 2026-06-17
 version: 1.1.0
+parent:
+  - "[[000-META]]"
 ---
 # Git Rules
 1.  **Main is Sacred.** Only receives merges from `develop` via PR. Never commit directly. Broken links or `fixme` tags on `main` = Failed Build.

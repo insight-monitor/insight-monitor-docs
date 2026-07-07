@@ -14,6 +14,8 @@ aliases:
   - Prompt Manipulation Risk
 creation-date: 2026-06-13
 last-reviewed: 2026-06-14
+parent:
+  - "[[510-RISKS]]"
 ---
 # Prompt Manipulation Risk
 

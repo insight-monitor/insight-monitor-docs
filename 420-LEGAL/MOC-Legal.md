@@ -9,6 +9,8 @@ audience: all
 version: 0.0.1
 creation-date: 2026-06-18
 last-reviewed: 2026-06-18
+parent:
+  - "[[420-LEGAL]]"
 ---
 
 # Legal — Map of Content

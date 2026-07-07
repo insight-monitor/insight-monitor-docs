@@ -11,6 +11,8 @@ aliases:
   - raw ai response
 creation-date: 2026-06-08
 last-reviewed: 2026-06-13
+parent:
+  - "[[600-SESSIONS]]"
 ---
 This is a **complete, beginner-friendly guide** tailored exactly to your `insight-monitor-docs` repository, your Obsidian structure, and your "Non-Technical / AI-Assisted / Legal-Heavy" workflow.
 

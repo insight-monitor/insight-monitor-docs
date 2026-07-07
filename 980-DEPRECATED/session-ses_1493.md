@@ -11,6 +11,8 @@ aliases:
 version: 1.1.0
 creation-date: 2026-06-11
 last-reviewed: 2026-06-16
+parent:
+  - "[[980-DEPRECATED]]"
 ---
 # Compare narrative folder with README_Kevin.md
 

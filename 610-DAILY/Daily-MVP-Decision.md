@@ -17,6 +17,8 @@ aliases:
 version: 1.0.0
 creation-date: 2026-06-16
 last-reviewed: 2026-06-16
+parent:
+  - "[[610-DAILY]]"
 ---
 # Daily 
 We discussed the developing process and responsibility division on the tasks to perform.

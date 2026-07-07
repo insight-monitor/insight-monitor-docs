@@ -14,6 +14,8 @@ aliases:
   - Excluded Capabilities
 creation-date: 2026-06-13
 last-reviewed: 2026-06-14
+parent:
+  - "[[500-SCOPE]]"
 ---
 # Excluded Capabilities
 

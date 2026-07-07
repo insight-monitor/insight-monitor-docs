@@ -13,6 +13,8 @@ aliases:
 creation-date: 2026-06-06
 last-reviewed: 2026-06-17
 version: 2.0.0
+parent:
+  - "[[000-META]]"
 ---
 # Metadata: Frontmatter Schema
 

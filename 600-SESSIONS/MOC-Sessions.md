@@ -14,6 +14,8 @@ tags:
 version: 2.0.0
 creation-date: 2025-06-09
 last-reviewed: 2026-06-15
+parent:
+  - "[[600-SESSIONS]]"
 ---
 # AI Sessions
 

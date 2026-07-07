@@ -13,6 +13,8 @@ aliases:
   - Scope Map of Content
 creation-date: 2026-06-13
 last-reviewed: 2026-06-24
+parent:
+  - "[[500-SCOPE]]"
 ---
 
 ## Scope

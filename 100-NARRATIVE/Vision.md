@@ -18,6 +18,8 @@ aliases:
   - Product's Vision
 creation-date: 2026-06-08
 last-reviewed: 2026-06-12
+parent:
+  - "[[100-NARRATIVE]]"
 ---
 # Vision
 

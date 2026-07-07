@@ -16,6 +16,8 @@ aliases:
   - Scope Clarification
 creation-date: 2026-06-24
 last-reviewed: 2026-06-24
+parent:
+  - "[[500-SCOPE]]"
 ---
 # Inference Pipeline v0.1 vs Product MVP — Scope Comparison
 

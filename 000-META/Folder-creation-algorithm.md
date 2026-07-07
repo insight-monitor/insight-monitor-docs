@@ -15,6 +15,8 @@ aliases:
 creation-date: 2026-06-08
 last-reviewed: 2026-06-13
 version: 1.0.1
+parent:
+  - "[[000-META]]"
 ---
 # Folder Creation Algorithm
 

@@ -16,6 +16,8 @@ aliases:
   - MVP-Definition (legacy alias)
 creation-date: 2026-06-15
 last-reviewed: 2026-06-24
+parent:
+  - "[[100-NARRATIVE]]"
 ---
 # Inference Pipeline v0.1 Definition
 

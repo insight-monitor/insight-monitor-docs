@@ -14,6 +14,8 @@ aliases:
   - User Context Schema
 creation-date: 2026-06-13
 last-reviewed: 2026-06-13
+parent:
+  - "[[200-DATA-MODEL]]"
 ---
 # User Context Schema
 

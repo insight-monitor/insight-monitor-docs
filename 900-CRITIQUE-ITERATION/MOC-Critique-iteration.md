@@ -14,6 +14,8 @@ aliases:
   - Critique Map of Content
 creation-date: 2026-06-14
 last-reviewed: 2026-06-14
+parent:
+  - "[[900-CRITIQUE-ITERATION]]"
 ---
 ## Critique and Iteration
 - 

@@ -12,6 +12,8 @@ tags:
 aliases:
   - workflow guide
 last-reviewed: 2026-06-09
+parent:
+  - "[[insight-monitor-docs]]"
 ---
 # Documentation Workflow Guide
 

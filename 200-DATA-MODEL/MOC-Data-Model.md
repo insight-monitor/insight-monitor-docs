@@ -9,6 +9,8 @@ audience: all
 creation-date: 2026-06-13
 last-reviewed: 2026-06-18
 version: 1.2.0
+parent:
+  - "[[200-DATA-MODEL]]"
 ---
 
 ## Data Model

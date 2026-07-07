@@ -13,6 +13,8 @@ aliases:
 creation-date: 2026-06-10
 last-reviewed: 2026-06-13
 version: 1.0.0
+parent:
+  - "[[000-META]]"
 ---
 # Semantic Ranges (3-digit)
 

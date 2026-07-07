@@ -9,6 +9,8 @@ ai-context: low
 creation-date: 2026-06-08
 last-reviewed: 2026-06-16
 version: 1.1.0
+parent:
+  - "[[980-DEPRECATED]]"
 ---
 # WorkMemory
 

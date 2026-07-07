@@ -13,6 +13,8 @@ tags:
 creation-date: 2026-06-06
 last-reviewed: 2026-06-17
 version: 1.1.0
+parent:
+  - "[[000-META]]"
 ---
 ## Documentation Architecture (read by default)
 - [[Metadata]] — Frontmatter schema reference

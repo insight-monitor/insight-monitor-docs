@@ -12,6 +12,8 @@ aliases:
 creation-date: 2026-06-08
 last-reviewed: 2026-06-17
 version: 1.0.0
+parent:
+  - "[[000-META]]"
 ---
 # Docs Rules
 1. **Files are small**, Files CAN'T contain more than 500 words, except for `status: draft`

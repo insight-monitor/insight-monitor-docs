@@ -16,6 +16,8 @@ aliases:
 creation-date: 2026-06-15
 last-reviewed: 2026-06-24
 version: 3.0.0
+parent:
+  - "[[700-MVP]]"
 ---
 
 # Inference Pipeline v0.1 Execution Plan

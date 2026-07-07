@@ -15,6 +15,8 @@ aliases:
   - Intent vs Category
 creation-date: 2026-06-13
 last-reviewed: 2026-06-13
+parent:
+  - "[[220-USE-CASES]]"
 ---
 # Intent vs Category: The YouTube Case
 

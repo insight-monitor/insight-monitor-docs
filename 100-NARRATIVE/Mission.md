@@ -14,6 +14,8 @@ aliases:
   - Insight Monitor Mission
 creation-date: 2026-06-09
 last-reviewed: 2026-06-12
+parent:
+  - "[[100-NARRATIVE]]"
 ---
 # Mission
 

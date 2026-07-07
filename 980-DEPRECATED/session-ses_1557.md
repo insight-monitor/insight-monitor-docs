@@ -14,6 +14,8 @@ aliases:
 version: 1.1.0
 creation-date: 2026-06-08
 last-reviewed: 2026-06-16
+parent:
+  - "[[980-DEPRECATED]]"
 ---
 # Documentation startup plan from critique
 

@@ -13,6 +13,8 @@ aliases:
   - Risks Map of Content
 creation-date: 2026-06-15
 last-reviewed: 2026-06-15
+parent:
+  - "[[510-RISKS]]"
 ---
 
 ## Risks

@@ -18,6 +18,8 @@ aliases:
   - Next steps
 creation-date: 2026-06-14
 last-reviewed: 2026-06-14
+parent:
+  - "[[600-SESSIONS]]"
 ---
 
 # Vault file creation plan

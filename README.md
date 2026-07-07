@@ -13,6 +13,8 @@ tags:
 creation-date: 2026-06-06
 last-reviewed: 2026-06-17
 version: 2.1.0
+parent:
+  - "[[insight-monitor-docs]]"
 ---
 
 # Insight Monitor 

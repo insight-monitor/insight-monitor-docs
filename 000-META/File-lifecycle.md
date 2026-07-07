@@ -13,6 +13,8 @@ aliases:
 creation-date: 2026-06-07
 last-reviewed: 2026-06-17
 version: 2.1.0
+parent:
+  - "[[000-META]]"
 ---
 ## Creation
 Start by creating a file at root, make sure to add the minimum frontmatter [[Metadata]]:

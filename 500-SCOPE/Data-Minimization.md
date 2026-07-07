@@ -14,6 +14,8 @@ aliases:
   - Data Minimization
 creation-date: 2026-06-13
 last-reviewed: 2026-06-14
+parent:
+  - "[[500-SCOPE]]"
 ---
 ## Minimum viable signals
 The system can deliver value with only these sources:

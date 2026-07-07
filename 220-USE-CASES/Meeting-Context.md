@@ -14,6 +14,8 @@ aliases:
   - Use Case Meeting Context
 creation-date: 2026-06-13
 last-reviewed: 2026-06-13
+parent:
+  - "[[220-USE-CASES]]"
 ---
 # Use Case: Meeting Context
 

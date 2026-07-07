@@ -16,6 +16,8 @@ aliases:
   - Full MVP
 creation-date: 2026-06-26
 last-reviewed: 2026-06-26
+parent:
+  - "[[100-NARRATIVE]]"
 ---
 
 # Product MVP Definition

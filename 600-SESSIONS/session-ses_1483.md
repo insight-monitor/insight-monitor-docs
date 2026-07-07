@@ -12,6 +12,8 @@ tags:
   - ai-input
   - context-awareness
   - review
+parent:
+  - "[[600-SESSIONS]]"
 ---
 # Review use cases against narrative with How-to-review guidelines
 

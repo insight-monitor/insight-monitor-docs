@@ -16,6 +16,8 @@ aliases:
   - our surveillance stance
 creation-date: 2026-06-12
 last-reviewed: 2026-06-12
+parent:
+  - "[[100-NARRATIVE]]"
 ---
 
 # Stance on Surveillance

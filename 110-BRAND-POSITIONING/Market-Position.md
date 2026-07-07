@@ -15,6 +15,8 @@ aliases:
   - Market
 creation-date: 2026-06-14
 last-reviewed: 2026-06-14
+parent:
+  - "[[110-BRAND-POSITIONING]]"
 ---
 # Market Position
 

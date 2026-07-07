@@ -16,6 +16,8 @@ aliases:
   - Insight monitor main concepts
 creation-date: 2026-06-14
 last-reviewed: 2026-06-14
+parent:
+  - "[[120-CORE-CONCEPTS]]"
 ---
 # Glossary
 

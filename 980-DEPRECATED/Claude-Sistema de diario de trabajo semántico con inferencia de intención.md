@@ -11,6 +11,8 @@ aliases:
   - Kevin Claude Session
 creation-date: 2026-06-02
 last-reviewed: 2026-06-16
+parent:
+  - "[[980-DEPRECATED]]"
 ---
 
 # Sistema de diario de trabajo semántico con inferencia de intención

@@ -13,6 +13,8 @@ aliases:
 version: 1.0.0
 creation-date: 2026-06-16
 last-reviewed: 2026-06-16
+parent:
+  - "[[980-DEPRECATED]]"
 ---
 - [[AI_analisis]] - Old file of AI Critique to early stage Insight Monitor Idea description
 - [[README_Kevin]] - Original 7 Week plan for MVP

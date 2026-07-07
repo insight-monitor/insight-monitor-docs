@@ -10,6 +10,8 @@ ai-context: low
 aliases:
   - Hard Review on Insight Monitor Early Idea
 last-reviewed: 2026-06-16
+parent:
+  - "[[980-DEPRECATED]]"
 ---
 
 Good. Since you asked for merciless, here it is:
