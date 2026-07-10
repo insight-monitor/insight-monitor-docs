@@ -9,7 +9,7 @@ audience: all
 version: 0.1.0
 tags:
   - use-case
-  - meetings
+  - meeting
 aliases:
   - Use Case Meeting Context
 creation-date: 2026-06-13

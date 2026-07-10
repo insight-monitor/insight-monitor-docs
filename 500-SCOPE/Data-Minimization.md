@@ -10,6 +10,7 @@ version: 1.0.0
 tags:
   - data-minimization
   - privacy
+  - boundaries
 aliases:
   - Data Minimization
 creation-date: 2026-06-13

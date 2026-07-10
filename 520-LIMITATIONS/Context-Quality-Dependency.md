@@ -10,6 +10,7 @@ version: 1.0.0
 tags:
   - context
   - quality
+  - limitation
 aliases:
   - Context Quality Dependency
 creation-date: 2026-06-13

@@ -10,6 +10,7 @@ version: 1.0.0
 tags:
   - first-principles
   - axioms
+  - philosophy
 aliases:
   - First Principles
 creation-date: 2026-06-14

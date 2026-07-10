@@ -10,6 +10,8 @@ version: 1.0.0
 tags:
   - market
   - differentiation
+  - audience
+  - boundaries
 aliases:
   - Market Position
   - Market
