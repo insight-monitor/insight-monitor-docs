@@ -9,7 +9,9 @@ audience: all
 slug: vault-structure
 tags:
   - vault
-  - folders
+  - context
+  - metadata
+  - definition
 aliases:
   - vault structure
   - folder map

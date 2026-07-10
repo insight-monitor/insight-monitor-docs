@@ -8,9 +8,11 @@ status: draft
 audience: all
 version: 2.0.0
 tags:
-  - inference-pipeline
   - definition
   - index
+  - pipeline
+  - context-awareness
+  - product
 aliases:
   - Inference Pipeline v0.1 Definition
   - MVP-Definition (legacy alias)

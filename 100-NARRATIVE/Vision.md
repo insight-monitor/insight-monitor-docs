@@ -10,9 +10,9 @@ version: 4.0.1
 tags:
   - vision
   - destination
-  - context-aware
   - behavioral-intelligence
   - educational
+  - context-awareness
 aliases:
   - Insight Monitor Vision
   - Product's Vision

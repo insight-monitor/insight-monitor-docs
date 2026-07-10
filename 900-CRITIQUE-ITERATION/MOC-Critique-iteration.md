@@ -9,7 +9,7 @@ audience: all
 version: 1.1.0
 tags:
   - MOC
-  - Empty
+  - placeholder
 aliases:
   - Critique Map of Content
 creation-date: 2026-06-14

@@ -7,9 +7,11 @@ ai-context: high
 status: accepted
 audience: all
 tags:
-  - inference-pipeline
   - plan
   - schedule
+  - context-awareness
+  - pipeline
+  - project
 aliases:
   - Inference Pipeline v0.1 14-Day Plan
   - MOC-Inference-Pipeline

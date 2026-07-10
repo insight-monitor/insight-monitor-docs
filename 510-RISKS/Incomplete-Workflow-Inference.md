@@ -10,6 +10,8 @@ version: 2.0.0
 tags:
   - multi-device
   - inference
+  - blindspot
+  - boundaries
 aliases:
   - Incomplete Workflow Inference
 creation-date: 2026-06-15

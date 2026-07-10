@@ -9,7 +9,7 @@ audience: all
 version: 1.0.0
 tags:
   - applicability
-  - domains
+  - domain
 aliases:
   - Domain Applicability Limits
 creation-date: 2026-06-13

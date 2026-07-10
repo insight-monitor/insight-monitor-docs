@@ -8,9 +8,11 @@ status: accepted
 audience: all
 version: 2.0.0
 tags:
-  - inference-pipeline
   - mvp
   - scope-comparison
+  - pipeline
+  - context-awareness
+  - product
 aliases:
   - Pipeline v0.1 vs MVP
   - Scope Clarification

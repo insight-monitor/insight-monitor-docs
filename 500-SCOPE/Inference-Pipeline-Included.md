@@ -8,8 +8,11 @@ status: accepted
 audience: all
 version: 3.0.0
 tags:
-  - inference-pipeline
   - capabilities
+  - pipeline
+  - context-awareness
+  - boundaries
+  - product
 aliases:
   - Pipeline v0.1 Included
   - MVP-Included (legacy alias)

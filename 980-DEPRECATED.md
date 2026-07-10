@@ -1,4 +1,0 @@
----
-parent:
-  - "[[insight-monitor-docs]]"
----

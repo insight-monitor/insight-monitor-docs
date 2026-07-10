@@ -9,7 +9,7 @@ audience: all
 version: 1.0.0
 tags:
   - glossary
-  - definitions
+  - definition
 aliases:
   - Glossary
   - Core Definitions
